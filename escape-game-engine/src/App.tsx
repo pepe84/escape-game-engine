@@ -4,16 +4,21 @@ import { AppLayout } from "./components/layout/AppLayout";
 import { AppRoutes } from "./router/AppRoutes";
 import { AppBootstrap } from "./components/AppBootstrap";
 import "./i18n/i18n";
+import { PWAProvider } from "./context/PWAContext";
+import { UpdateBanner } from "./components/UpdateBanner";
 
 export default function App() {  
   return (
     <BrowserRouter>
-      <GameProvider>
-        <AppBootstrap />
-        <AppLayout>
-          <AppRoutes />
-        </AppLayout>
-      </GameProvider>
+      <PWAProvider>
+        <GameProvider>
+          <AppBootstrap />
+          <AppLayout>
+            <AppRoutes />
+          </AppLayout>
+          <UpdateBanner />
+        </GameProvider>
+      </PWAProvider>
     </BrowserRouter>
   );
 }

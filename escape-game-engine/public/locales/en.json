@@ -58,5 +58,10 @@
       "points": "points"
     },
     "history": "History"
-  }
+  },
+  "pwa": {
+    "offlineReady": "The app is now available offline.",
+    "updateAvailable": "A new version is available.",
+    "update": "Update"
+  }  
 }

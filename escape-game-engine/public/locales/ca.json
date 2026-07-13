@@ -58,5 +58,10 @@
         "points": "punts"
       },
       "history": "Historial"
+  },
+  "pwa": {
+    "offlineReady": "L'aplicació ja es pot utilitzar sense connexió.",
+    "updateAvailable": "Hi ha disponible una nova versió.",
+    "update": "Actualitza"
   }
 }
