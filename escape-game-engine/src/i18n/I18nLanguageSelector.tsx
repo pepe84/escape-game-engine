@@ -7,7 +7,7 @@ export default function I18nLanguageSelector({
 }) {
   const { i18n } = useTranslation();
 
-  const getLangConfig = (code) => {
+  const getLangConfig = (code: string) => {
     return LANGUAGES.find(l => l.code === code);
   };
 

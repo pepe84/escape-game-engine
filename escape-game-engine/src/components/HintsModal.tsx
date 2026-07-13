@@ -50,7 +50,7 @@ export function HintsModal({
 
         <div className="flex justify-between">
           <div className="flex gap-2 flex-wrap">
-            {hints.map((hint, index) => {
+            {hints.map((_, index) => {
               const unlocked =
                 HintEngineService.isHintUnlocked(
                   state,

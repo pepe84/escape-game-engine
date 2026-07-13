@@ -1,4 +1,4 @@
-import type { CodeQuestionConfig, Question } from "../models/Question";
+import type { TextOrCodeQuestionConfig, Question } from "../models/Question";
 
 export class QuestionEngineService {
 
@@ -7,7 +7,7 @@ export class QuestionEngineService {
     switch (question.type) {
 
       case "code":
-        return Array((question.config as CodeQuestionConfig)?.digits ?? 4).fill("");
+        return Array((question.config as TextOrCodeQuestionConfig)?.length ?? 4).fill("");
 
       case "text":
       case "select":

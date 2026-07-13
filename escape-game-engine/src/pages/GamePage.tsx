@@ -84,7 +84,8 @@ export function GamePage() {
       setError(t("gamePage.required"));
       return;
     }
-    const result = QuestionEngineService.evaluate(page.question, answer);
+
+    const result = QuestionEngineService.evaluate(page.question!, answer);
 
     if (result.correct) {
       setError(null);
@@ -102,7 +103,7 @@ export function GamePage() {
         setShake(false)
       }, 500);
 
-      const penalty = page.question.penaltySeconds ?? game.defaultPenaltySeconds;
+      const penalty = page.question!.penaltySeconds ?? game.defaultPenaltySeconds;
       updateGameState(GameEngineService.applyPenalty(state, penalty));
       setError(t("gamePage.wrongAnswer", {penalty}));
     }
@@ -211,8 +212,8 @@ export function GamePage() {
 
       { totalHints > 0 && showHints && hintState && (
       <HintsModal
-        hints={page.question.hints}
-        answer={page.question.answer}
+        hints={page.question!.hints ?? []}
+        answer={page.question!.answer}
         state={hintState}
         onUnlockHint={() => {
           updateGameState(

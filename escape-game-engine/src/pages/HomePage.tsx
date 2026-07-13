@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGame } from "../context/GameContext";
-import { GameLoaderService } from "../services/GameLoaderService";
+import { GameLoaderService, type GameLoadResult } from "../services/GameLoaderService";
 import { useTranslation, Trans } from "react-i18next";
+import type { ZodIssue } from "zod";
 
 export function HomePage() {
   const { t } = useTranslation();
@@ -16,12 +17,12 @@ export function HomePage() {
     if (state?.finished) navigate("/summary");
   }, [state]);
 
-  const handleGame = (result: any) => {
+  const handleGame = (result: GameLoadResult) => {
     if (!result.success) {
       const issues = (result.error as any)?.issues ?? [];
       setError(
         issues.length 
-          ? issues.map(i => `${i.path.join(".")} → ${i.message}`)
+          ? issues.map((i:ZodIssue) => `${i.path.join(".")} → ${i.message}`)
             .join("\n")
           : t("homePage.loadingError")
       );
