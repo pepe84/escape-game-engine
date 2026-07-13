@@ -1,6 +1,6 @@
 import { Brain } from 'lucide-react';
 import { useCountdown } from "../../hooks/useCountdown";
-import { useGame } from "../../context/GameContext";
+import { useGameContext } from "../../context/GameContext";
 import { useNavigate, Link } from "react-router-dom";
 import { StorageService } from "../../services/StorageService";
 import { useTranslation } from "react-i18next";
@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export function Header() {
   const { t } = useTranslation();
   const { formatted } = useCountdown();
-  const { state, reset } = useGame();
+  const { state, reset } = useGameContext();
   const navigate = useNavigate();
 
   const abandonGame = () => {

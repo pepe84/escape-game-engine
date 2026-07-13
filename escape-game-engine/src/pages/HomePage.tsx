@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import { GameLoaderService, type GameLoadResult } from "../services/GameLoaderService";
 import { useTranslation, Trans } from "react-i18next";
 import type { ZodIssue } from "zod";
 
 export function HomePage() {
   const { t } = useTranslation();
-  const { setGame, state } = useGame();
+  const { setGame, state } = useGameContext();
   const navigate = useNavigate();
   const [file, setFile] = useState<File | null>(null);
   const [error, setError] = useState<string | null>(null);

@@ -29,7 +29,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
   );
 }
 
-export function useGame() {
+export function useGameContext() {
   const ctx = useContext(GameContext);
   if (!ctx) throw new Error("GameContext no disponible");
   return ctx;

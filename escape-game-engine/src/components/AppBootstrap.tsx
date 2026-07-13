@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import { StorageService } from "../services/StorageService";
 
 export function AppBootstrap() {
-  const { setGame, setState } = useGame();
+  const { setGame, setState } = useGameContext();
 
   useEffect(() => {
     const game = StorageService.loadGame();

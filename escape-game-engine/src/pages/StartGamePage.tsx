@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import { GameEngineService } from "../services/GameEngineService";
 import { StorageService } from "../services/StorageService";
 import { useTranslation } from "react-i18next";
@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export function StartGamePage() {
   const { t } = useTranslation();
   const [teamName, setTeamName] = useState("");
-  const { game, setState } = useGame();
+  const { game, setState } = useGameContext();
   const navigate = useNavigate();
 
   useEffect(() => {

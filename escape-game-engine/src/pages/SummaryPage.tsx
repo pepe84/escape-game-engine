@@ -1,4 +1,4 @@
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import type { GameEvent } from "../models/GameEvent";
 import { GameEventType } from "../models/GameEventType";
 import { SummaryService } from "../services/SummaryService";
@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 export function SummaryPage() {
   const { t } = useTranslation();
-  const { game, state } = useGame();
+  const { game, state } = useGameContext();
 
   if (!game || !state) {
     return (

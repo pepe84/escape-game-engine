@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import { GameClockService } from "../services/GameClockService";
 
 export function useCountdown() {
 
-  const { game, state } = useGame();
+  const { game, state } = useGameContext();
   const [now, setNow] = useState(Date.now());
 
   useEffect(() => {

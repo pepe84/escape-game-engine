@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useGame } from "../context/GameContext";
+import { useGameContext } from "../context/GameContext";
 import { GameEngineService } from "../services/GameEngineService";
 import { QuestionEngineService } from "../services/QuestionEngineService";
 import { isEmpty } from "../utils/isEmpty";
@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 
 export function GamePage() {
   const { t } = useTranslation();
-  const { game, state, setState } = useGame();
+  const { game, state, setState } = useGameContext();
   const navigate = useNavigate();
 
   const [answer, setAnswer] = useState<QuestionAnswer>("");
