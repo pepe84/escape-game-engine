@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "title": "Escape Game Demo",
+  "description": "Joc de prova",
+  "durationMinutes": 15,
+  "defaultPenaltySeconds": 45,
+  "pages": [
+    {
+      "title": "Benvinguts",
+      "content": "Comença l'aventura"
+    },
+{
+      "title": "Número",
+      "content": "Comencem pel principi!",
+      "question": {
+        "type": "number",
+        "hints": [
+          "Quin és el primer número?"
+        ],
+        "answer": "1"
+      }
+    },
+    {
+      "title": "Text lliure",
+      "content": "A quina ciutat es celebra el festival Nowa Reggae?",
+      "question": {
+        "type": "text",
+        "formatHelp": "No té en compte minúscules / majúscules",
+        "penaltySeconds": 30,
+        "config": {
+          "length": 8
+        },
+        "hints": [
+          "És al Garraf",
+          "Comença per V",
+          "Acaba per -nova"
+        ],
+        "answer": "Vilanova"
+      }
+    },
+    {
+      "title": "Codi secret",
+      "content": "El gran germà et vigila...",
+      "question": {
+        "type": "code",
+        "penaltySeconds": 15,
+        "config": {
+          "length": 4
+        },
+        "hints": [
+          "Llibre de ciencia ficció"
+        ],
+        "answer": "1984"
+      }
+    },
+    {
+      "title": "Escull una opció",
+      "content": "Quin color podem veure amunt i avall?",
+      "question": {
+        "type": "select",
+        "config": {
+          "options": [
+            "Blau",
+            "Vermell",
+            "Verd",
+            "Groc"
+          ]
+        },
+        "hints": [
+          "Què veus si mires amunt i avall mentre et banyes?",
+          "Pensa en una obra de teatre"
+        ],
+        "answer": "Blau"
+      }
+    },
+    {
+      "title": "Mar i cel",
+      "content": "El blau del mar i del cel!"
+    },    
+    {
+      "title": "Data històrica",
+      "content": "Quin dia històric commemora la Diada de Catalunya?",
+      "question": {
+        "type": "date",
+        "formatHelp": "El format de data depen del navegador",
+        "answer": "11-09-1714"
+      }
+    },
+    {
+      "title": "Final",
+      "content": "Heu completat el joc"
+    }
+  ]
+}

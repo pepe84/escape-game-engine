@@ -1,0 +1,67 @@
+{
+  "layout": {
+    "counter": "{{current}} de {{total}}",
+    "finishBtn": "Finalitzar"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Prova un 'escape game' de demostració per veure la dinàmica de navegació, la gestió d'encerts, errors i pistes i el resum final amb estadístiques. La demo està disponible en format <csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>.",
+      "btn": "Carregar demo"
+    },
+    "section2": {
+      "title": "Joc propi",
+      "body": "Crea el teu propi 'escape game', a partir del fitxer de la demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importa el fitxer i comprova que funciona correctament. Un cop fet, qualsevol podrà jugar amb el teu fitxer des d'aquesta aplicació web.",
+      "btn": "Importar joc"
+    },
+    "loadingError": "Error desconegut carregant el joc"
+  },
+  "startPage": {
+    "team": "Nom de l'equip",
+    "btn": "Començar partida"
+  },
+  "gamePage": {
+    "required": "Resposta obligatòria",
+    "wrongAnswer": "Incorrecte (+{{penalty}} s)",
+    "pageCount": "{{current}} de {{total}}",
+    "nextBtn": "Següent",
+    "submitBtn": "Resoldre",
+    "hintsBtn": "Mostrar pistes",
+    "hints": {
+      "hint": "Pista {{i}}",
+      "hintBtn": "Mostrar pista {{i}}",
+      "solution": "Solució",
+      "solutionBtn": "Mostrar solució"
+    }
+  },
+  "summaryPage": {
+      "eventType": {
+        "gs": "Partida iniciada",
+        "po": "Pàgina {{i}} oberta",
+        "ca": "Resposta correcta",
+        "wa": "Resposta incorrecta",
+        "ho": "Pista {{i}} consultada",
+        "so": "Solució consultada",
+        "gf": "Partida finalitzada"
+      },
+      "result": {
+        "success": "Enhorabona {{team}}! Joc superat!",
+        "failed": "Oh {{team}}... No heu superat el joc!"
+      },
+      "statistics": {
+        "correctAnswers": "Enigmes resolts",
+        "wrongAnswers": "Respostes errònies",
+        "usedSeconds": "Temps utilitzat",
+        "penaltySeconds": "Penalització acumulada",
+        "hints": "Pistes usades",
+        "solutions": "Solucions consultades",
+        "points": "punts"
+      },
+      "history": "Historial"
+  },
+  "pwa": {
+    "offlineReady": "L'aplicació ja es pot utilitzar sense connexió.",
+    "updateAvailable": "Hi ha disponible una nova versió.",
+    "update": "Actualitza"
+  }
+}

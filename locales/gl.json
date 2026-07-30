@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} de {{total}}",
+    "finishBtn": "Finalizar"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Proba un 'escape game' de demostración para ver a dinámica de navegación, a xestión de acertos, erros e pistas e o resumo final con estatísticas. A demo está dispoñible en formato <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
+      "btn": "Cargar demo"
+    },
+    "section2": {
+      "title": "Xogo propio",
+      "body": "Crea o teu propio 'escape game' a partir do ficheiro da demo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importa o ficheiro e comproba que funciona correctamente. Unha vez feito, calquera poderá xogar co teu ficheiro desde esta aplicación web.",
+      "btn": "Importar xogo"
+    },
+    "loadingError": "Erro descoñecido ao cargar o xogo"
+  },
+  "startPage": {
+    "team": "Nome do equipo",
+    "btn": "Comezar partida"
+  },
+  "gamePage": {
+    "required": "Resposta obrigatoria",
+    "wrongAnswer": "Incorrecto (+{{penalty}} s)",
+    "pageCount": "{{current}} de {{total}}",
+    "nextBtn": "Seguinte",
+    "submitBtn": "Resolver",
+    "hintsBtn": "Amosar pistas",
+    "hints": {
+      "hint": "Pista {{i}}",
+      "hintBtn": "Amosar pista {{i}}",
+      "solution": "Solución",
+      "solutionBtn": "Amosar solución"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Partida iniciada",
+      "po": "Páxina {{i}} aberta",
+      "ca": "Resposta correcta",
+      "wa": "Resposta incorrecta",
+      "ho": "Pista {{i}} consultada",
+      "so": "Solución consultada",
+      "gf": "Partida rematada"
+    },
+    "result": {
+      "success": "Parabéns {{team}}! Xogo superado!",
+      "failed": "Oh {{team}}... Non superastes o xogo!"
+    },
+    "statistics": {
+      "correctAnswers": "Enigmas resoltos",
+      "wrongAnswers": "Respostas erróneas",
+      "usedSeconds": "Tempo empregado",
+      "penaltySeconds": "Penalización acumulada",
+      "hints": "Pistas usadas",
+      "solutions": "Solucións consultadas",
+      "points": "puntos"
+    },
+    "history": "Historial"
+  }
+}

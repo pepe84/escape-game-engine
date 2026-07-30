@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} / {{total}}",
+    "finishBtn": "完成"
+  },
+  "homePage": {
+    "section1": {
+      "title": "演示",
+      "body": "试玩一个逃脱游戏演示，了解导航流程、正确/错误答案、提示以及最终统计。演示提供 <csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink> 格式。",
+      "btn": "加载演示"
+    },
+    "section2": {
+      "title": "自定义游戏",
+      "body": "基于演示文件创建你自己的逃脱游戏（<csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink>）。导入后检查是否正常运行。之后任何人都可以在此网页应用中游玩。",
+      "btn": "导入游戏"
+    },
+    "loadingError": "加载游戏时发生未知错误"
+  },
+  "startPage": {
+    "team": "队伍名称",
+    "btn": "开始游戏"
+  },
+  "gamePage": {
+    "required": "必须填写答案",
+    "wrongAnswer": "错误（+{{penalty}} 秒）",
+    "pageCount": "{{current}} / {{total}}",
+    "nextBtn": "下一步",
+    "submitBtn": "提交",
+    "hintsBtn": "显示提示",
+    "hints": {
+      "hint": "提示 {{i}}",
+      "hintBtn": "显示提示 {{i}}",
+      "solution": "答案",
+      "solutionBtn": "显示答案"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "游戏开始",
+      "po": "页面 {{i}} 已打开",
+      "ca": "回答正确",
+      "wa": "回答错误",
+      "ho": "提示 {{i}} 已查看",
+      "so": "查看了解答",
+      "gf": "游戏结束"
+    },
+    "result": {
+      "success": "恭喜 {{team}}！通关成功！",
+      "failed": "很遗憾 {{team}}... 未能通关！"
+    },
+    "statistics": {
+      "correctAnswers": "已解谜题",
+      "wrongAnswers": "错误答案",
+      "usedSeconds": "用时",
+      "penaltySeconds": "惩罚时间",
+      "hints": "使用提示",
+      "solutions": "查看解答",
+      "points": "分数"
+    },
+    "history": "历史记录"
+  }
+}

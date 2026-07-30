@@ -1,0 +1,67 @@
+{
+  "layout": {
+    "counter": "{{current}} de {{total}}",
+    "finishBtn": "Finalizar"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Prueba un 'escape game' de demostración para ver la dinámica de navegación, la gestión de aciertos, errores y pistas y el resumen final con estadísticas. La demo está disponible en formato <csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>.",
+      "btn": "Cargar demo"
+    },
+    "section2": {
+      "title": "Juego propio",
+      "body": "Crea tu propio 'escape game' a partir del archivo de la demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importa el archivo y comprueba que funciona correctamente. Una vez hecho, cualquiera podrá jugar con tu archivo desde esta aplicación web.",
+      "btn": "Importar juego"
+    },
+    "loadingError": "Error desconocido cargando el juego"
+  },
+  "startPage": {
+    "team": "Nombre del equipo",
+    "btn": "Empezar partida"
+  },
+  "gamePage": {
+    "required": "Respuesta obligatoria",
+    "wrongAnswer": "Incorrecto (+{{penalty}} s)",
+    "pageCount": "{{current}} de {{total}}",
+    "nextBtn": "Siguiente",
+    "submitBtn": "Resolver",
+    "hintsBtn": "Mostrar pistas",
+    "hints": {
+      "hint": "Pista {{i}}",
+      "hintBtn": "Mostrar pista {{i}}",
+      "solution": "Solución",
+      "solutionBtn": "Mostrar solución"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Partida iniciada",
+      "po": "Página {{i}} abierta",
+      "ca": "Respuesta correcta",
+      "wa": "Respuesta incorrecta",
+      "ho": "Pista {{i}} consultada",
+      "so": "Solución consultada",
+      "gf": "Partida finalizada"
+    },
+    "result": {
+      "success": "¡Enhorabuena {{team}}! ¡Juego superado!",
+      "failed": "Oh {{team}}... ¡No habéis superado el juego!"
+    },
+    "statistics": {
+      "correctAnswers": "Enigmas resueltos",
+      "wrongAnswers": "Respuestas erróneas",
+      "usedSeconds": "Tiempo utilizado",
+      "penaltySeconds": "Penalización acumulada",
+      "hints": "Pistas usadas",
+      "solutions": "Soluciones consultadas",
+      "points": "puntos"
+    },
+    "history": "Historial"
+  },
+  "pwa": {
+    "offlineReady": "La aplicación ya puede utilizarse sin conexión.",
+    "updateAvailable": "Hay una nueva versión disponible.",
+    "update": "Actualizar"
+  }
+}

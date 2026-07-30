@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} sur {{total}}",
+    "finishBtn": "Terminer"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Démo",
+      "body": "Essayez un escape game de démonstration pour voir la navigation, les réponses correctes/incorrectes, les indices et le résumé final. La démo est disponible en format <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
+      "btn": "Charger la démo"
+    },
+    "section2": {
+      "title": "Jeu personnalisé",
+      "body": "Créez votre propre escape game à partir du fichier de démo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importez-le et vérifiez son bon fonctionnement. Ensuite, tout le monde pourra y jouer via cette application web.",
+      "btn": "Importer un jeu"
+    },
+    "loadingError": "Erreur inconnue lors du chargement du jeu"
+  },
+  "startPage": {
+    "team": "Nom de l'équipe",
+    "btn": "Commencer la partie"
+  },
+  "gamePage": {
+    "required": "Réponse obligatoire",
+    "wrongAnswer": "Incorrect (+{{penalty}} s)",
+    "pageCount": "{{current}} sur {{total}}",
+    "nextBtn": "Suivant",
+    "submitBtn": "Résoudre",
+    "hintsBtn": "Afficher les indices",
+    "hints": {
+      "hint": "Indice {{i}}",
+      "hintBtn": "Afficher l'indice {{i}}",
+      "solution": "Solution",
+      "solutionBtn": "Afficher la solution"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Partie commencée",
+      "po": "Page {{i}} ouverte",
+      "ca": "Réponse correcte",
+      "wa": "Réponse incorrecte",
+      "ho": "Indice {{i}} consulté",
+      "so": "Solution consultée",
+      "gf": "Partie terminée"
+    },
+    "result": {
+      "success": "Félicitations {{team}} ! Jeu terminé !",
+      "failed": "Oh {{team}}... Vous n'avez pas terminé le jeu !"
+    },
+    "statistics": {
+      "correctAnswers": "Énigmes résolues",
+      "wrongAnswers": "Réponses incorrectes",
+      "usedSeconds": "Temps utilisé",
+      "penaltySeconds": "Pénalité cumulée",
+      "hints": "Indices utilisés",
+      "solutions": "Solutions consultées",
+      "points": "points"
+    },
+    "history": "Historique"
+  }
+}

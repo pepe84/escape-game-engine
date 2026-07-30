@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} من {{total}}",
+    "finishBtn": "إنهاء"
+  },
+  "homePage": {
+    "section1": {
+      "title": "تجربة",
+      "body": "جرّب لعبة هروب تجريبية لرؤية التنقل والإجابات الصحيحة والخاطئة والتلميحات والإحصائيات النهائية. النسخة متاحة بصيغة <csvLink>CSV</csvLink> أو <jsonLink>JSON</jsonLink>.",
+      "btn": "تحميل التجربة"
+    },
+    "section2": {
+      "title": "لعبتك الخاصة",
+      "body": "أنشئ لعبة الهروب الخاصة بك باستخدام ملف التجربة (<csvLink>CSV</csvLink> أو <jsonLink>JSON</jsonLink>). قم باستيراده وتحقق من عمله بشكل صحيح. بعد ذلك يمكن لأي شخص اللعب من خلال هذا التطبيق.",
+      "btn": "استيراد لعبة"
+    },
+    "loadingError": "حدث خطأ غير معروف أثناء تحميل اللعبة"
+  },
+  "startPage": {
+    "team": "اسم الفريق",
+    "btn": "بدء اللعبة"
+  },
+  "gamePage": {
+    "required": "الإجابة مطلوبة",
+    "wrongAnswer": "إجابة خاطئة (+{{penalty}} ث)",
+    "pageCount": "{{current}} من {{total}}",
+    "nextBtn": "التالي",
+    "submitBtn": "إرسال",
+    "hintsBtn": "عرض التلميحات",
+    "hints": {
+      "hint": "تلميح {{i}}",
+      "hintBtn": "عرض التلميح {{i}}",
+      "solution": "الحل",
+      "solutionBtn": "عرض الحل"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "بدأت اللعبة",
+      "po": "تم فتح الصفحة {{i}}",
+      "ca": "إجابة صحيحة",
+      "wa": "إجابة خاطئة",
+      "ho": "تم استخدام تلميح {{i}}",
+      "so": "تم عرض الحل",
+      "gf": "انتهت اللعبة"
+    },
+    "result": {
+      "success": "تهانينا {{team}}! لقد أكملتم اللعبة!",
+      "failed": "للأسف {{team}}... لم تكملوا اللعبة!"
+    },
+    "statistics": {
+      "correctAnswers": "الألغاز المحلولة",
+      "wrongAnswers": "الإجابات الخاطئة",
+      "usedSeconds": "الوقت المستخدم",
+      "penaltySeconds": "وقت العقوبة",
+      "hints": "التلميحات المستخدمة",
+      "solutions": "الحلول المشاهدة",
+      "points": "النقاط"
+    },
+    "history": "السجل"
+  }
+}

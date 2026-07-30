@@ -1,0 +1,14 @@
+METADATA,,,,,,,,,,
+title,description,version,durationMinutes,defaultPenaltySeconds,,,,,,
+Escape Game Demo,Joc de prova,1.0,15,45,,,,,,
+,,,,,,,,,,
+PAGES,,,,,,,,,,
+title,content,question,formatHelp,penaltySeconds,length,options,hint 1,hint 2,hint 3,answer
+Benvinguts,Comença l'aventura,,,,,,,,,
+Número,Comencem pel principi!,number,,,,,Quin és el primer número?,,,1
+Text lliure,A quina ciutat es celebra el festival Nowa Reggae?,text,No té en compte minúscules / majúscules,30,8,,És al Garraf,Comença per V,Acaba per -nova,Vilanova
+Codi secret,El gran germà et vigila...,code,,15,4,,Llibre de ciencia ficció,,,1984
+Escull una opció,Quin color podem veure amunt i avall?,select,,,,Blau|Vermell|Verd|Groc,Què veus si mires amunt i avall mentre et banyes?,Pensa en una obra de teatre,,Blau
+Mar i cel,El blau del mar i del cel!,,,,,,,,,
+Data històrica,Quin dia històric commemora la Diada de Catalunya?,date,El format de data depen del navegador,,,,,,,11-09-1714
+Final,Heu completat el joc,,,,,,,,,

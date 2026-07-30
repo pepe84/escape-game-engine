@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} di {{total}}",
+    "finishBtn": "Termina"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Prova un escape game dimostrativo per vedere la navigazione, risposte corrette/errate, suggerimenti e statistiche finali. La demo è disponibile in formato <csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>.",
+      "btn": "Carica demo"
+    },
+    "section2": {
+      "title": "Gioco personalizzato",
+      "body": "Crea il tuo escape game a partire dal file demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importalo e verifica che funzioni correttamente. Poi chiunque potrà giocarci da questa web app.",
+      "btn": "Importa gioco"
+    },
+    "loadingError": "Errore sconosciuto durante il caricamento del gioco"
+  },
+  "startPage": {
+    "team": "Nome squadra",
+    "btn": "Inizia partita"
+  },
+  "gamePage": {
+    "required": "Risposta obbligatoria",
+    "wrongAnswer": "Errato (+{{penalty}} s)",
+    "pageCount": "{{current}} di {{total}}",
+    "nextBtn": "Avanti",
+    "submitBtn": "Risolvi",
+    "hintsBtn": "Mostra suggerimenti",
+    "hints": {
+      "hint": "Suggerimento {{i}}",
+      "hintBtn": "Mostra suggerimento {{i}}",
+      "solution": "Soluzione",
+      "solutionBtn": "Mostra soluzione"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Partita iniziata",
+      "po": "Pagina {{i}} aperta",
+      "ca": "Risposta corretta",
+      "wa": "Risposta errata",
+      "ho": "Suggerimento {{i}} consultato",
+      "so": "Soluzione consultata",
+      "gf": "Partita terminata"
+    },
+    "result": {
+      "success": "Congratulazioni {{team}}! Gioco completato!",
+      "failed": "Oh {{team}}... Non avete completato il gioco!"
+    },
+    "statistics": {
+      "correctAnswers": "Enigmi risolti",
+      "wrongAnswers": "Risposte errate",
+      "usedSeconds": "Tempo utilizzato",
+      "penaltySeconds": "Penalità accumulata",
+      "hints": "Suggerimenti usati",
+      "solutions": "Soluzioni consultate",
+      "points": "punti"
+    },
+    "history": "Storico"
+  }
+}

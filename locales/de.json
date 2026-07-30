@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} von {{total}}",
+    "finishBtn": "Beenden"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Teste ein Escape-Game als Demo, um Navigation, richtige/falsche Antworten, Hinweise und Statistiken zu sehen. Die Demo ist im <csvLink>CSV</csvLink> oder <jsonLink>JSON</jsonLink>-Format verfügbar.",
+      "btn": "Demo laden"
+    },
+    "section2": {
+      "title": "Eigenes Spiel",
+      "body": "Erstelle dein eigenes Escape-Game aus der Demo-Datei (<csvLink>CSV</csvLink> oder <jsonLink>JSON</jsonLink>). Importiere sie und prüfe, ob alles funktioniert. Danach kann jeder dein Spiel in dieser Web-App spielen.",
+      "btn": "Spiel importieren"
+    },
+    "loadingError": "Unbekannter Fehler beim Laden des Spiels"
+  },
+  "startPage": {
+    "team": "Teamname",
+    "btn": "Spiel starten"
+  },
+  "gamePage": {
+    "required": "Antwort erforderlich",
+    "wrongAnswer": "Falsch (+{{penalty}} s)",
+    "pageCount": "{{current}} von {{total}}",
+    "nextBtn": "Weiter",
+    "submitBtn": "Lösen",
+    "hintsBtn": "Hinweise anzeigen",
+    "hints": {
+      "hint": "Hinweis {{i}}",
+      "hintBtn": "Hinweis {{i}} anzeigen",
+      "solution": "Lösung",
+      "solutionBtn": "Lösung anzeigen"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Spiel gestartet",
+      "po": "Seite {{i}} geöffnet",
+      "ca": "Richtige Antwort",
+      "wa": "Falsche Antwort",
+      "ho": "Hinweis {{i}} verwendet",
+      "so": "Lösung angesehen",
+      "gf": "Spiel beendet"
+    },
+    "result": {
+      "success": "Glückwunsch {{team}}! Spiel geschafft!",
+      "failed": "Oh {{team}}... Spiel nicht geschafft!"
+    },
+    "statistics": {
+      "correctAnswers": "Gelöste Rätsel",
+      "wrongAnswers": "Falsche Antworten",
+      "usedSeconds": "Benötigte Zeit",
+      "penaltySeconds": "Strafzeit",
+      "hints": "Hinweise genutzt",
+      "solutions": "Lösungen angesehen",
+      "points": "Punkte"
+    },
+    "history": "Verlauf"
+  }
+}

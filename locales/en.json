@@ -1,0 +1,67 @@
+{
+  "layout": {
+    "counter": "{{current}} of {{total}}",
+    "finishBtn": "Finish"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Try a demo escape game to see navigation flow, correct/incorrect answers, hints, and final statistics. The demo is available in <csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink> format.",
+      "btn": "Load demo"
+    },
+    "section2": {
+      "title": "Custom game",
+      "body": "Create your own escape game from the demo file (<csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink>). Import it and verify it works correctly. Once done, anyone can play your game in this web app.",
+      "btn": "Import game"
+    },
+    "loadingError": "Unknown error loading game"
+  },
+  "startPage": {
+    "team": "Team name",
+    "btn": "Start game"
+  },
+  "gamePage": {
+    "required": "Required answer",
+    "wrongAnswer": "Incorrect (+{{penalty}} s)",
+    "pageCount": "{{current}} of {{total}}",
+    "nextBtn": "Next",
+    "submitBtn": "Solve",
+    "hintsBtn": "Show hints",
+    "hints": {
+      "hint": "Hint {{i}}",
+      "hintBtn": "Show hint {{i}}",
+      "solution": "Solution",
+      "solutionBtn": "Show solution"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Game started",
+      "po": "Page {{i}} opened",
+      "ca": "Correct answer",
+      "wa": "Wrong answer",
+      "ho": "Hint {{i}} used",
+      "so": "Solution viewed",
+      "gf": "Game finished"
+    },
+    "result": {
+      "success": "Congratulations {{team}}! Game completed!",
+      "failed": "Oh {{team}}... You didn't complete the game!"
+    },
+    "statistics": {
+      "correctAnswers": "Solved puzzles",
+      "wrongAnswers": "Wrong answers",
+      "usedSeconds": "Time used",
+      "penaltySeconds": "Penalty time",
+      "hints": "Hints used",
+      "solutions": "Solutions viewed",
+      "points": "points"
+    },
+    "history": "History"
+  },
+  "pwa": {
+    "offlineReady": "The app is now available offline.",
+    "updateAvailable": "A new version is available.",
+    "update": "Update"
+  }  
+}

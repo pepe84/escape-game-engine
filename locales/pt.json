@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} de {{total}}",
+    "finishBtn": "Terminar"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demo",
+      "body": "Experimenta um escape game de demonstração para ver a navegação, respostas corretas/incorretas, pistas e estatísticas finais. A demo está disponível em formato <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
+      "btn": "Carregar demo"
+    },
+    "section2": {
+      "title": "Jogo próprio",
+      "body": "Cria o teu próprio escape game a partir do ficheiro demo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importa-o e verifica se funciona corretamente. Depois disso, qualquer pessoa poderá jogar através desta aplicação web.",
+      "btn": "Importar jogo"
+    },
+    "loadingError": "Erro desconhecido ao carregar o jogo"
+  },
+  "startPage": {
+    "team": "Nome da equipa",
+    "btn": "Iniciar jogo"
+  },
+  "gamePage": {
+    "required": "Resposta obrigatória",
+    "wrongAnswer": "Incorreto (+{{penalty}} s)",
+    "pageCount": "{{current}} de {{total}}",
+    "nextBtn": "Seguinte",
+    "submitBtn": "Resolver",
+    "hintsBtn": "Mostrar pistas",
+    "hints": {
+      "hint": "Pista {{i}}",
+      "hintBtn": "Mostrar pista {{i}}",
+      "solution": "Solução",
+      "solutionBtn": "Mostrar solução"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Jogo iniciado",
+      "po": "Página {{i}} aberta",
+      "ca": "Resposta correta",
+      "wa": "Resposta incorreta",
+      "ho": "Pista {{i}} consultada",
+      "so": "Solução consultada",
+      "gf": "Jogo terminado"
+    },
+    "result": {
+      "success": "Parabéns {{team}}! Jogo concluído!",
+      "failed": "Oh {{team}}... Não concluíram o jogo!"
+    },
+    "statistics": {
+      "correctAnswers": "Enigmas resolvidos",
+      "wrongAnswers": "Respostas erradas",
+      "usedSeconds": "Tempo utilizado",
+      "penaltySeconds": "Penalização acumulada",
+      "hints": "Pistas usadas",
+      "solutions": "Soluções consultadas",
+      "points": "pontos"
+    },
+    "history": "Histórico"
+  }
+}

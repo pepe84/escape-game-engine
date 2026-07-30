@@ -1,0 +1,62 @@
+{
+  "layout": {
+    "counter": "{{current}} / {{total}}",
+    "finishBtn": "Amaitu"
+  },
+  "homePage": {
+    "section1": {
+      "title": "Demoa",
+      "body": "'Escape game' demo bat probatu nabigazio-fluxua, erantzun zuzen/okerra, pistak eta azken estatistikak ikusteko. Demoa <csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink> formatuan dago eskuragarri.",
+      "btn": "Demoa kargatu"
+    },
+    "section2": {
+      "title": "Joko propioa",
+      "body": "Sortu zure 'escape game' propioa demo fitxategitik (<csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink>). Inportatu eta egiaztatu ondo funtzionatzen duela. Ondoren, edonork jolastu ahal izango du web aplikazio honetan.",
+      "btn": "Jokoa inportatu"
+    },
+    "loadingError": "Errore ezezaguna jokoa kargatzean"
+  },
+  "startPage": {
+    "team": "Taldearen izena",
+    "btn": "Hasi partida"
+  },
+  "gamePage": {
+    "required": "Erantzuna derrigorrezkoa da",
+    "wrongAnswer": "Okerra (+{{penalty}} s)",
+    "pageCount": "{{current}} / {{total}}",
+    "nextBtn": "Hurrengoa",
+    "submitBtn": "Ebatzi",
+    "hintsBtn": "Pistak erakutsi",
+    "hints": {
+      "hint": "Pista {{i}}",
+      "hintBtn": "Pista {{i}} erakutsi",
+      "solution": "Soluzioa",
+      "solutionBtn": "Soluzioa erakutsi"
+    }
+  },
+  "summaryPage": {
+    "eventType": {
+      "gs": "Jokoa hasi da",
+      "po": "{{i}} orria ireki da",
+      "ca": "Erantzun zuzena",
+      "wa": "Erantzun okerra",
+      "ho": "Pista {{i}} erabili da",
+      "so": "Soluzioa ikusi da",
+      "gf": "Jokoa amaitu da"
+    },
+    "result": {
+      "success": "Zorionak {{team}}! Jokoa gaindituta!",
+      "failed": "Ai {{team}}... ez duzue jokoa gainditu!"
+    },
+    "statistics": {
+      "correctAnswers": "Ebatzi diren enigmak",
+      "wrongAnswers": "Erantzun okerrak",
+      "usedSeconds": "Erabilitako denbora",
+      "penaltySeconds": "Zigor-denbora",
+      "hints": "Erabilitako pistak",
+      "solutions": "Ikusitako soluzioak",
+      "points": "puntuak"
+    },
+    "history": "Historia"
+  }
+}
