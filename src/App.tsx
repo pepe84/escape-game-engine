@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import { GameProvider } from "./context/GameContext";
 import { AppLayout } from "./components/layout/AppLayout";
 import { AppRoutes } from "./router/AppRoutes";
@@ -7,9 +7,12 @@ import "./i18n/i18n";
 import { PWAProvider } from "./context/PWAContext";
 import { UpdateBanner } from "./components/UpdateBanner";
 
-export default function App() {  
+const Router = import.meta.env.BASE_URL === "/" 
+  ? BrowserRouter : HashRouter; // 👈 GitHub Pages
+
+export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <PWAProvider>
         <GameProvider>
           <AppBootstrap />
@@ -19,6 +22,6 @@ export default function App() {
           <UpdateBanner />
         </GameProvider>
       </PWAProvider>
-    </BrowserRouter>
+    </Router>
   );
 }

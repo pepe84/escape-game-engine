@@ -11,6 +11,8 @@ export function HomePage() {
   const navigate = useNavigate();
   const [file, setFile] = useState<File | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const exampleJsonUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
+  const exampleCsvUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
 
   useEffect(() => {
     if (state && !state.finished) navigate("/game");
@@ -35,7 +37,7 @@ export function HomePage() {
   }
 
   const loadExample = async () => {
-    const result = await GameLoaderService.loadFromUrl("/data/example-game.json");
+    const result = await GameLoaderService.loadFromUrl(exampleJsonUrl);
     handleGame(result);
   };
 
@@ -59,8 +61,8 @@ export function HomePage() {
             <Trans
               i18nKey="homePage.section1.body"
               components={{
-                csvLink: (<a href="/data/example-game.csv" download className="text-emerald-500" />),
-                jsonLink: (<a href="/data/example-game.json" download className="text-emerald-500" />),
+                csvLink: (<a href={exampleCsvUrl} download className="text-emerald-500" />),
+                jsonLink: (<a href={exampleJsonUrl} download className="text-emerald-500" />),
               }}
             />            
           </div>
@@ -77,8 +79,8 @@ export function HomePage() {
             <Trans
               i18nKey="homePage.section2.body"
               components={{
-                csvLink: (<a href="/data/example-game.csv" download className="text-emerald-500" />),
-                jsonLink: (<a href="/data/example-game.json" download className="text-emerald-500" />),
+                csvLink: (<a href={exampleCsvUrl} download className="text-emerald-500" />),
+                jsonLink: (<a href={exampleJsonUrl} download className="text-emerald-500" />),
               }}
             />
           </div>

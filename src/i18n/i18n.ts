@@ -18,7 +18,7 @@ i18n
       useSuspense: false,
     },
     backend: {
-      loadPath: "/locales/{{lng}}.json",
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`
     },
   });
 
