@@ -12,7 +12,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "auto",
       devOptions: {
-        enabled: true
+        enabled: false
       },
       manifest: {
         name: "Escape Game Engine",
@@ -41,12 +41,20 @@ export default defineConfig({
           }
         ]
       },
+      includeAssets: [
+        "favicon.svg",
+        "icons/*.png",
+        "data/*.json",
+        "data/*.csv",
+        "locales/*.json"
+      ],
       workbox: {
+        //globPatterns: [
+        //  "**/*.{js,css,html,ico,png,svg,json,csv}"
+        //],        
         runtimeCaching: [
           {
-            urlPattern: ({ url }) =>
-              url.pathname.endsWith(".json") ||
-              url.pathname.endsWith(".csv"),
+            urlPattern: /\.(json|csv)$/,
             handler: "CacheFirst",
             options: {
               cacheName: "game-files",
