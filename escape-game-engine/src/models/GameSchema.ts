@@ -2,6 +2,7 @@ import { z } from "zod";
 
 const QuestionTypeSchema = z.enum([
   "text",
+  "number",
   "select",
   "code",
   "date"

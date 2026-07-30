@@ -10,6 +10,7 @@ export class QuestionEngineService {
         return Array((question.config as TextOrCodeQuestionConfig)?.length ?? 4).fill("");
 
       case "text":
+      case "number":
       case "select":
       case "date":
       default:
@@ -22,6 +23,7 @@ export class QuestionEngineService {
     switch (question.type) {
 
       case "text":
+      case "number":
         return this.evalText(question, userAnswer);
 
       case "select":

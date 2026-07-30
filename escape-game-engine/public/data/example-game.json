@@ -9,8 +9,19 @@
       "title": "Benvinguts",
       "content": "Comença l'aventura"
     },
+{
+      "title": "Número",
+      "content": "Comencem pel principi!",
+      "question": {
+        "type": "number",
+        "hints": [
+          "Quin és el primer número?"
+        ],
+        "answer": "1"
+      }
+    },
     {
-      "title": "Primera prova",
+      "title": "Text lliure",
       "content": "A quina ciutat es celebra el festival Nowa Reggae?",
       "question": {
         "type": "text",
@@ -28,7 +39,6 @@
       }
     },
     {
-      "type": "question",
       "title": "Codi secret",
       "content": "El gran germà et vigila...",
       "question": {
@@ -44,7 +54,6 @@
       }
     },
     {
-      "type": "question",
       "title": "Escull una opció",
       "content": "Quin color podem veure amunt i avall?",
       "question": {
