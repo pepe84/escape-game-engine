@@ -11,7 +11,7 @@ export function HomePage() {
   const navigate = useNavigate();
   const [file, setFile] = useState<File | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const exampleJsonUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
+  const exampleJsonUrl = `${import.meta.env.BASE_URL}data/example-game.json`;
   const exampleCsvUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
 
   useEffect(() => {
