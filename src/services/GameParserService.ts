@@ -43,13 +43,15 @@ export class GameParserService {
     return {
       title: metadata.title,
       description: metadata.description,
-      version: metadata.version,
       durationMinutes: Number(
         metadata.durationMinutes
       ),
       defaultPenaltySeconds: Number(
         metadata.defaultPenaltySeconds
       ),
+      version: metadata.version,
+      author: metadata.author,
+      license: metadata.license || undefined,
       pages
     };
   }

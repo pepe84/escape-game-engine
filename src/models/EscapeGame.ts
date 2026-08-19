@@ -7,10 +7,12 @@ export interface EscapeGamePage {
 }
 
 export interface EscapeGame {
-  version: string;
   title: string;
   description?: string;
   durationMinutes: number;
   defaultPenaltySeconds: number;
+  version: string;
+  author: string;
+  license?: string;
   pages: EscapeGamePage[];
 }

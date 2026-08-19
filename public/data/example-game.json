@@ -1,15 +1,17 @@
 {
-  "version": "1.0",
   "title": "Escape Game Demo",
   "description": "Joc de prova",
   "durationMinutes": 15,
   "defaultPenaltySeconds": 45,
+  "version": "1.0",
+  "author": "Escape Game Engine",
+  "license": "CC BY-NC-SA 4.0",
   "pages": [
     {
       "title": "Benvinguts",
       "content": "Comença l'aventura"
     },
-{
+    {
       "title": "Número",
       "content": "Comencem pel principi!",
       "question": {
@@ -26,7 +28,6 @@
       "question": {
         "type": "text",
         "formatHelp": "No té en compte minúscules / majúscules",
-        "penaltySeconds": 30,
         "config": {
           "length": 8
         },
@@ -35,7 +36,8 @@
           "Comença per V",
           "Acaba per -nova"
         ],
-        "answer": "Vilanova"
+        "answer": "Vilanova",
+        "penaltySeconds": 30
       }
     },
     {
@@ -43,14 +45,14 @@
       "content": "El gran germà et vigila...",
       "question": {
         "type": "code",
-        "penaltySeconds": 15,
         "config": {
           "length": 4
         },
         "hints": [
           "Llibre de ciencia ficció"
         ],
-        "answer": "1984"
+        "answer": "1984",
+        "penaltySeconds": 15
       }
     },
     {

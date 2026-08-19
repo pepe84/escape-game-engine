@@ -26,10 +26,12 @@ const GamePageSchema = z.object({
 });
 
 export const EscapeGameSchema = z.object({
-  version: z.string(),
   title: z.string(),
   description: z.string().optional(),
   durationMinutes: z.number().positive(),
   defaultPenaltySeconds: z.number().positive(),
+  version: z.string(),
+  author: z.string(),
+  license: z.string().optional(),
   pages: z.array(GamePageSchema).min(1)
 });
