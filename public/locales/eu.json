@@ -16,6 +16,17 @@
     },
     "loadingError": "Errore ezezaguna jokoa kargatzean"
   },
+  "gamePreview": {
+    "description": "Deskribapena",
+    "version": "Bertsioa",
+    "duration": "Iraupena",
+    "questions": "Galderak",
+    "penalty": "Galdera bakoitzeko zigorra",
+    "author": "Egilea",
+    "license": "Lizentzia",
+    "cancel": "Utzi",
+    "start": "Jokoa hasi"
+  },  
   "startPage": {
     "team": "Taldearen izena",
     "btn": "Hasi partida"

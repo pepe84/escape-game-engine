@@ -4,6 +4,8 @@ import { useGameContext } from "../context/GameContext";
 import { GameLoaderService, type GameLoadResult } from "../services/GameLoaderService";
 import { useTranslation, Trans } from "react-i18next";
 import type { ZodIssue } from "zod";
+import type { EscapeGame } from "../models/EscapeGame";
+import { GamePreviewModal } from "../components/GamePreviewModal";
 
 export function HomePage() {
   const { t } = useTranslation();
@@ -13,6 +15,7 @@ export function HomePage() {
   const [error, setError] = useState<string | null>(null);
   const exampleJsonUrl = `${import.meta.env.BASE_URL}data/example-game.json`;
   const exampleCsvUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
+  const [previewGame, setPreviewGame] = useState<EscapeGame | null>(null);
 
   useEffect(() => {
     if (state && !state.finished) navigate("/game");
@@ -30,11 +33,21 @@ export function HomePage() {
       );
     } else {
       console.log("Game OK", result.data);
-      setGame(result.data);
-      setError(null);  
-      navigate("/start");
+      setError(null);
+      setPreviewGame(result.data);
     }
   }
+
+  const startPreviewedGame = () => {
+    if (!previewGame) return;
+    setGame(previewGame);
+    setPreviewGame(null);
+    navigate("/start");
+  };
+
+  const cancelPreview = () => {
+    setPreviewGame(null);
+  };
 
   const loadExample = async () => {
     const result = await GameLoaderService.loadFromUrl(exampleJsonUrl);
@@ -96,7 +109,14 @@ export function HomePage() {
           </div>
         </div>
       </div>
+
       {error && <pre className="text-red-500 whitespace-pre-wrap">{error}</pre>}
+
+      <GamePreviewModal
+        game={previewGame}
+        onStart={startPreviewedGame}
+        onCancel={cancelPreview}
+      />
     </>
   );
 }

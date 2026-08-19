@@ -16,6 +16,17 @@
     },
     "loadingError": "加载游戏时发生未知错误"
   },
+  "gamePreview": {
+    "description": "描述",
+    "version": "版本",
+    "duration": "时长",
+    "questions": "问题",
+    "penalty": "每题惩罚时间",
+    "author": "作者",
+    "license": "许可证",
+    "cancel": "取消",
+    "start": "开始游戏"
+  },  
   "startPage": {
     "team": "队伍名称",
     "btn": "开始游戏"

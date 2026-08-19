@@ -16,6 +16,17 @@
     },
     "loadingError": "Unknown error loading game"
   },
+  "gamePreview": {
+    "description": "Description",
+    "version": "Version",
+    "duration": "Duration",
+    "questions": "Questions",
+    "penalty": "Penalty per question",
+    "author": "Author",
+    "license": "License",
+    "cancel": "Cancel",
+    "start": "Start game"
+  },
   "startPage": {
     "team": "Team name",
     "btn": "Start game"
