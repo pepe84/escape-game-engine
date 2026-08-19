@@ -16,6 +16,17 @@
     },
     "loadingError": "Неизвестная ошибка загрузки игры"
   },
+  "gamePreview": {
+    "description": "Описание",
+    "version": "Версия",
+    "duration": "Продолжительность",
+    "questions": "Вопросы",
+    "penalty": "Штраф за вопрос",
+    "author": "Автор",
+    "license": "Лицензия",
+    "cancel": "Отмена",
+    "start": "Начать игру"
+  },  
   "startPage": {
     "team": "Название команды",
     "btn": "Начать игру"

@@ -16,6 +16,17 @@
     },
     "loadingError": "Erro descoñecido ao cargar o xogo"
   },
+  "gamePreview": {
+    "description": "Descrición",
+    "version": "Versión",
+    "duration": "Duración",
+    "questions": "Preguntas",
+    "penalty": "Penalización por pregunta",
+    "author": "Autor",
+    "license": "Licenza",
+    "cancel": "Cancelar",
+    "start": "Iniciar xogo"
+  },  
   "startPage": {
     "team": "Nome do equipo",
     "btn": "Comezar partida"

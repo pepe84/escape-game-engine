@@ -16,6 +16,17 @@
     },
     "loadingError": "Error desconegut carregant el joc"
   },
+  "gamePreview": {
+    "description": "Descripció",
+    "version": "Versió",
+    "duration": "Durada",
+    "questions": "Preguntes",
+    "penalty": "Penalització per pregunta",
+    "author": "Autor",
+    "license": "Llicència",
+    "cancel": "Cancel·lar",
+    "start": "Iniciar joc"
+  },  
   "startPage": {
     "team": "Nom de l'equip",
     "btn": "Començar partida"

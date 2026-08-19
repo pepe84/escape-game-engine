@@ -16,6 +16,17 @@
     },
     "loadingError": "حدث خطأ غير معروف أثناء تحميل اللعبة"
   },
+  "gamePreview": {
+    "description": "الوصف",
+    "version": "الإصدار",
+    "duration": "المدة",
+    "questions": "الأسئلة",
+    "penalty": "العقوبة لكل سؤال",
+    "author": "المؤلف",
+    "license": "الترخيص",
+    "cancel": "إلغاء",
+    "start": "بدء اللعبة"
+  },  
   "startPage": {
     "team": "اسم الفريق",
     "btn": "بدء اللعبة"
