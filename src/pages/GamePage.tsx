@@ -146,10 +146,16 @@ export function GamePage() {
 
         </div>
 
-        <div className="text-gray-700 whitespace-pre-wrap">
-          {page.content}
+        <div className="text-gray-700 space-y-4">
+        {page.content
+            ?.split(/\r?\n\s*\r?\n/)
+            .map((paragraph, index) => (
+            <p key={index} className="whitespace-pre-line">
+                {paragraph}
+            </p>
+            ))}
         </div>
-
+        
         {page.question && (
           <form
             className={`space-y-4 ${shake ? "animate-shake" : ""}`}

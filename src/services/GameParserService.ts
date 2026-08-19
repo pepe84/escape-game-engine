@@ -5,41 +5,83 @@ export class GameParserService {
 
   static parse(text: string): EscapeGame {
 
-    const lines =
-      text
-        .split(/\r?\n/)
-        .map(line => line.trimEnd());
+    const result = Papa.parse<string[]>(text, {
+      skipEmptyLines: false
+    });
 
-    const metadataCsv = this.getSection(lines, "METADATA");
-
-    const pagesCsv = this.getSection(lines, "PAGES");
-
-    const metadataResult =
-      Papa.parse(metadataCsv, {
-        header: true,
-        skipEmptyLines: true
-      });
-
-    const metadata =
-      metadataResult.data[0] as any;
-
-    if (!metadata) {
+    if (result.errors.length > 0) {
       throw new Error(
-        "No s'han trobat metadades."
+        result.errors
+          .map(error => error.message)
+          .join("\n")
       );
     }
 
-    const pagesResult =
-      Papa.parse(pagesCsv, {
-        header: true,
-        skipEmptyLines: true
-      });
+    const rows = result.data;
 
-    const pages =
-      pagesResult.data.map((row: any) =>
-        this.parsePage(row)
+    const metadataIndex = rows.findIndex(
+      row => row[0]?.trim() === "METADATA"
+    );
+
+    if (metadataIndex === -1) {
+      throw new Error(
+        "Secció METADATA no trobada."
+      );
+    }
+
+    const pagesIndex = rows.findIndex(
+      row => row[0]?.trim() === "PAGES"
+    );
+
+    if (pagesIndex === -1) {
+      throw new Error(
+        "Secció PAGES no trobada."
+      );
+    }
+
+    /*
+     * METADATA
+     */
+    const metadataHeaders = rows[metadataIndex + 1];
+    const metadataValues = rows[metadataIndex + 2];
+
+    if (!metadataHeaders || !metadataValues) {
+      throw new Error(
+        "Les metadades estan incompletes."
+      );
+    }
+
+    const metadata = this.rowToObject(
+      metadataHeaders,
+      metadataValues
+    );
+
+    /*
+     * PAGES
+     */
+    const pagesHeaders = rows[pagesIndex + 1];
+
+    if (!pagesHeaders) {
+      throw new Error(
+        "Capçalera de PAGES no trobada."
+      );
+    }
+
+    const pageRows = rows
+      .slice(pagesIndex + 2)
+      .filter(row =>
+        row.some(cell => cell.trim() !== "")
       );
 
+    const pages = pageRows.map(row => {
+      const page = this.rowToObject(
+        pagesHeaders,
+        row
+      );
+
+      return this.parsePage(page);
+    });
+    
     return {
       title: metadata.title,
       description: metadata.description,
@@ -55,39 +97,23 @@ export class GameParserService {
       pages
     };
   }
+  
+  private static rowToObject(
+    headers: string[],
+    values: string[]
+  ): Record<string, string> {
 
-  private static getSection(lines: string[], section: string): string {
+    const result: Record<string, string> = {};
 
-    const start =
-      lines.findIndex(line =>
-        line.startsWith(section)
-      );
+    headers.forEach((header, index) => {
+      result[header.trim()] =
+        values[index] ?? "";
+    });
 
-    if (start === -1) {
-      throw new Error(
-        `Secció ${section} no trobada`
-      );
-    }
-
-    const end =
-      lines.findIndex(
-        (line, index) =>
-          index > start &&
-          /^[A-Z_]+(?:,.*)?$/.test(line)
-      );
-
-    return lines
-      .slice(
-        start + 1,
-        end === -1
-          ? undefined
-          : end
-      )
-      .filter(line => line.trim() !== "")
-      .join("\n");
+    return result;
   }
 
-  private static parsePage(row: any) {
+  private static parsePage(row: Record<string, string>) {
 
     const questionType = row.question?.trim();
 
@@ -102,32 +128,36 @@ export class GameParserService {
       row["hint 1"],
       row["hint 2"],
       row["hint 3"]
-    ].filter(Boolean);
+    ].filter(
+      (hint): hint is string =>
+        Boolean(hint?.trim())
+    );
 
     const question: any = {
       type: questionType,
       answer: row.answer
     };
 
-    if (row.formatHelp) {
+    if (row.formatHelp?.trim()) {
       question.formatHelp = row.formatHelp;
     }
 
-    if (row.penaltySeconds) {
+    if (row.penaltySeconds?.trim()) {
       question.penaltySeconds = Number(row.penaltySeconds);
     }
 
     const config: any = {};
 
-    if (row["length"]) {
-      config.length = Number(row["length"]);
+    if (row.length?.trim()) {
+      config.length = Number(row.length);
     }
 
-    if (row["options"]) {
-      config.options = String(row["options"])
-        .split("|")
-        .map((opt: string) => opt.trim())
-        .filter(Boolean);
+    if (row.options?.trim()) {
+      config.options =
+        row.options
+          .split("|")
+          .map(option => option.trim())
+          .filter(Boolean);
     }
 
     if (Object.keys(config).length > 0) {
@@ -144,5 +174,4 @@ export class GameParserService {
       question
     };
   }
-
 }
