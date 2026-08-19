@@ -19,6 +19,7 @@ export function GamePage() {
 
   const [answer, setAnswer] = useState<QuestionAnswer>("");
   const [error, setError] = useState<string | null>(null);
+  const [codeFeedback, setCodeFeedback] = useState<boolean[] | null>(null);
 
   useEffect(() => {
     if (!game || !state) navigate("/");
@@ -43,6 +44,8 @@ export function GamePage() {
       : null;
 
   useEffect(() => {
+    setCodeFeedback(null);
+
     if (!page?.question) {
       setAnswer("");
       return;
@@ -86,6 +89,10 @@ export function GamePage() {
     }
 
     const result = QuestionEngineService.evaluate(page.question!, answer);
+
+    if (page.question!.type === "code" && result.positions) {
+      setCodeFeedback(result.positions);
+    }
 
     if (result.correct) {
       setError(null);
@@ -155,6 +162,7 @@ export function GamePage() {
               question={page.question}
               answer={answer}
               onChange={setAnswer}
+              feedback={codeFeedback}
             />
             
             {page.question?.formatHelp && (

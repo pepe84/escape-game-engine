@@ -1,5 +1,11 @@
 import type { TextOrCodeQuestionConfig, Question } from "../models/Question";
 
+export interface QuestionEvaluationResult {
+  correct: boolean;
+  error?: string;
+  positions?: boolean[];
+}
+
 export class QuestionEngineService {
 
   static getInitialAnswer(question: Question) {
@@ -18,7 +24,7 @@ export class QuestionEngineService {
     }
   }
 
-  static evaluate(question: Question, userAnswer: any) {
+  static evaluate(question: Question, userAnswer: any) : QuestionEvaluationResult {
 
     switch (question.type) {
 
@@ -61,11 +67,22 @@ export class QuestionEngineService {
 
   private static evalCode(question: Question, answer: string[]) {
 
-    const code =
-      answer.join("").trim();
+    const expected = question.answer.trim();
+
+    const positions =
+      Array.from(
+        { length: expected.length },
+        (_, index) =>
+          String(answer[index] ?? "") === expected[index]
+      );
+
+    const correct =
+      positions.length === expected.length &&
+      positions.every(Boolean);
 
     return {
-      correct: code === question.answer.trim()
+      correct,
+      positions
     };
   }
 
@@ -78,8 +95,7 @@ export class QuestionEngineService {
       this.normalizeDate(question.answer);
 
     return {
-      correct:
-        normalizedAnswer === normalizedExpected
+      correct: normalizedAnswer === normalizedExpected
     };
   }
 

@@ -8,7 +8,8 @@ import { DateQuestion } from "./DateQuestion";
 export function QuestionRenderer({
   question,
   answer,
-  onChange
+  onChange,
+  feedback
 }: QuestionProps) {
 
   const renderers = {
@@ -26,6 +27,7 @@ export function QuestionRenderer({
       question={question}
       answer={answer}
       onChange={onChange}
+      feedback={feedback}
     />
   ) : null;
 }
