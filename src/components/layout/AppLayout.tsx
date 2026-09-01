@@ -20,7 +20,7 @@ export function AppLayout({
       <Header />
 
       <main className="flex-1 pt-16">
-        <div className="max-w-2xl mx-auto p-8 space-y-4">
+        <div className="max-w-4xl mx-auto p-8 space-y-4">
         { !ready 
           ? <div className="text-center mt-5">🌍 Loading language...</div>
           : <>{children}</>

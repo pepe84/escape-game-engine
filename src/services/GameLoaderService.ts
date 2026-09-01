@@ -59,21 +59,24 @@ export class GameLoaderService {
       };
     }
   }
-
+  
   static async loadFromUrl(url: string): Promise<GameLoadResult> {
-   try {
+    try {
       const response = await fetch(url);
       if (!response.ok) {
-        throw new Error("Cannot load game");
+        throw new Error(`Cannot load game (${response.status})`);
       }
       const text = await response.text();
-      const type = url.endsWith(".csv") ? "csv" : "json";
+      const pathname = new URL(url, window.location.href).pathname;
+      const type = pathname.toLowerCase().endsWith(".csv")
+        ? "csv"
+        : "json";
       return this.loadFromText(text, type);
     } catch (err) {
       return {
         success: false,
         error: err as Error
       };
-    }    
+    }
   }
 }

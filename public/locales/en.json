@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Demo",
-      "body": "Try a demo escape game to see navigation flow, correct/incorrect answers, hints, and final statistics. The demo is available in <csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink> format.",
+      "body": "Try a demo escape game to see the navigation flow, correct and incorrect answers, hints, and final statistics. The demo is available in <csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink> format.",
       "btn": "Load demo"
     },
     "section2": {
-      "title": "Custom game",
-      "body": "Create your own escape game from the demo file (<csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink>). Import it and verify it works correctly. Once done, anyone can play your game in this web app.",
-      "btn": "Import game"
+      "title": "Custom or third-party game",
+      "body": "Create your own escape game from the demo file (<csvLink>CSV</csvLink> or <jsonLink>JSON</jsonLink>). Import the file and check that it works correctly. Once done, anyone will be able to play your game from this web application.",
+      "local": {
+        "title": "From a local file",
+        "body": "Select a file from your device.",
+        "btn": "Load game"
+      },
+      "url": {
+        "title": "From a URL",
+        "body": "Enter the URL of the file.",
+        "btn": "Load game"
+      }
     },
-    "loadingError": "Unknown error loading game"
+    "loading": "Loading...",
+    "loadingError": "Unknown error loading the game",
+    "urlRequired": "Enter a URL.",
+    "invalidUrl": "Enter a valid URL (http:// or https://).",
+    "urlLoadError": "The game could not be loaded from the URL."
   },
   "gamePreview": {
     "description": "Description",
@@ -25,7 +38,10 @@
     "author": "Author",
     "license": "License",
     "cancel": "Cancel",
-    "start": "Start game"
+    "start": "Start game",
+    "share": "Share link",
+    "copy": "Copy link",
+    "copied": "Link copied!"
   },
   "startPage": {
     "team": "Team name",

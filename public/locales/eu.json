@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Demoa",
-      "body": "'Escape game' demo bat probatu nabigazio-fluxua, erantzun zuzen/okerra, pistak eta azken estatistikak ikusteko. Demoa <csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink> formatuan dago eskuragarri.",
+      "body": "'Escape game' demo bat probatu nabigazio-fluxua, erantzun zuzenak eta okerrak, pistak eta azken estatistikak ikusteko. Demoa <csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink> formatuan dago eskuragarri.",
       "btn": "Demoa kargatu"
     },
     "section2": {
-      "title": "Joko propioa",
-      "body": "Sortu zure 'escape game' propioa demo fitxategitik (<csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink>). Inportatu eta egiaztatu ondo funtzionatzen duela. Ondoren, edonork jolastu ahal izango du web aplikazio honetan.",
-      "btn": "Jokoa inportatu"
+      "title": "Joko propioa edo hirugarrenen jokoa",
+      "body": "Sortu zure 'escape game' propioa demo fitxategitik (<csvLink>CSV</csvLink> edo <jsonLink>JSON</jsonLink>). Inportatu fitxategia eta egiaztatu behar bezala funtzionatzen duela. Behin eginda, edonork jolastu ahal izango du zure fitxategiarekin web-aplikazio honetatik.",
+      "local": {
+        "title": "Fitxategi lokal batetik",
+        "body": "Hautatu gailuko fitxategi bat.",
+        "btn": "Jokoa kargatu"
+      },
+      "url": {
+        "title": "URL batetik",
+        "body": "Sartu fitxategiaren URLa.",
+        "btn": "Jokoa kargatu"
+      }
     },
-    "loadingError": "Errore ezezaguna jokoa kargatzean"
+    "loading": "Kargatzen...",
+    "loadingError": "Errore ezezaguna jokoa kargatzean",
+    "urlRequired": "Sartu URL bat.",
+    "invalidUrl": "Sartu baliozko URL bat (http:// edo https://).",
+    "urlLoadError": "Ezin izan da jokoa URLtik kargatu."
   },
   "gamePreview": {
     "description": "Deskribapena",
@@ -25,8 +38,11 @@
     "author": "Egilea",
     "license": "Lizentzia",
     "cancel": "Utzi",
-    "start": "Jokoa hasi"
-  },  
+    "start": "Jokoa hasi",
+    "share": "Partekatzeko esteka",
+    "copy": "Esteka kopiatu",
+    "copied": "Esteka kopiatuta!"
+  },
   "startPage": {
     "team": "Taldearen izena",
     "btn": "Hasi partida"

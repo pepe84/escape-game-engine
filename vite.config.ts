@@ -61,7 +61,7 @@ export default defineConfig(({ mode}) => {
           runtimeCaching: [
             {
               urlPattern: /\.(json|csv)$/,
-              handler: "CacheFirst",
+              handler: "StaleWhileRevalidate",
               options: {
                 cacheName: "game-files",
                 expiration: {

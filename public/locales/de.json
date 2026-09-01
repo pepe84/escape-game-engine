@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Demo",
-      "body": "Teste ein Escape-Game als Demo, um Navigation, richtige/falsche Antworten, Hinweise und Statistiken zu sehen. Die Demo ist im <csvLink>CSV</csvLink> oder <jsonLink>JSON</jsonLink>-Format verfügbar.",
+      "body": "Teste ein Escape-Game als Demo, um Navigation, richtige und falsche Antworten, Hinweise und die abschließenden Statistiken zu sehen. Die Demo ist im <csvLink>CSV</csvLink>- oder <jsonLink>JSON</jsonLink>-Format verfügbar.",
       "btn": "Demo laden"
     },
     "section2": {
-      "title": "Eigenes Spiel",
-      "body": "Erstelle dein eigenes Escape-Game aus der Demo-Datei (<csvLink>CSV</csvLink> oder <jsonLink>JSON</jsonLink>). Importiere sie und prüfe, ob alles funktioniert. Danach kann jeder dein Spiel in dieser Web-App spielen.",
-      "btn": "Spiel importieren"
+      "title": "Eigenes oder fremdes Spiel",
+      "body": "Erstelle dein eigenes Escape-Game aus der Demo-Datei (<csvLink>CSV</csvLink> oder <jsonLink>JSON</jsonLink>). Importiere die Datei und überprüfe, ob sie korrekt funktioniert. Danach kann jeder dein Spiel über diese Webanwendung spielen.",
+      "local": {
+        "title": "Aus einer lokalen Datei",
+        "body": "Wähle eine Datei von deinem Gerät aus.",
+        "btn": "Spiel laden"
+      },
+      "url": {
+        "title": "Von einer URL",
+        "body": "Gib die URL der Datei ein.",
+        "btn": "Spiel laden"
+      }
     },
-    "loadingError": "Unbekannter Fehler beim Laden des Spiels"
+    "loading": "Wird geladen...",
+    "loadingError": "Unbekannter Fehler beim Laden des Spiels",
+    "urlRequired": "Gib eine URL ein.",
+    "invalidUrl": "Gib eine gültige URL ein (http:// oder https://).",
+    "urlLoadError": "Das Spiel konnte nicht von der URL geladen werden."
   },
   "gamePreview": {
     "description": "Beschreibung",
@@ -25,8 +38,11 @@
     "author": "Autor",
     "license": "Lizenz",
     "cancel": "Abbrechen",
-    "start": "Spiel starten"
-  },  
+    "start": "Spiel starten",
+    "share": "Freigabelink",
+    "copy": "Link kopieren",
+    "copied": "Link kopiert!"
+  },
   "startPage": {
     "team": "Teamname",
     "btn": "Spiel starten"
