@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Demo",
-      "body": "Experimenta um escape game de demonstração para ver a navegação, respostas corretas/incorretas, pistas e estatísticas finais. A demo está disponível em formato <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
+      "body": "Experimenta um escape game de demonstração para ver a navegação, a gestão de respostas corretas e incorretas, pistas e o resumo final com estatísticas. A demo está disponível em formato <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
       "btn": "Carregar demo"
     },
     "section2": {
-      "title": "Jogo próprio",
-      "body": "Cria o teu próprio escape game a partir do ficheiro demo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importa-o e verifica se funciona corretamente. Depois disso, qualquer pessoa poderá jogar através desta aplicação web.",
-      "btn": "Importar jogo"
+      "title": "Jogo próprio ou de terceiros",
+      "body": "Cria o teu próprio escape game a partir do ficheiro da demo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importa o ficheiro e verifica se funciona corretamente. Depois disso, qualquer pessoa poderá jogar com o teu ficheiro a partir desta aplicação web.",
+      "local": {
+        "title": "A partir de um ficheiro local",
+        "body": "Seleciona um ficheiro do dispositivo.",
+        "btn": "Carregar jogo"
+      },
+      "url": {
+        "title": "A partir de um URL",
+        "body": "Introduz o URL do ficheiro.",
+        "btn": "Carregar jogo"
+      }
     },
-    "loadingError": "Erro desconhecido ao carregar o jogo"
+    "loading": "A carregar...",
+    "loadingError": "Erro desconhecido ao carregar o jogo",
+    "urlRequired": "Introduz um URL.",
+    "invalidUrl": "Introduz um URL válido (http:// ou https://).",
+    "urlLoadError": "Não foi possível carregar o jogo a partir do URL."
   },
   "gamePreview": {
     "description": "Descrição",
@@ -25,8 +38,11 @@
     "author": "Autor",
     "license": "Licença",
     "cancel": "Cancelar",
-    "start": "Iniciar jogo"
-  },  
+    "start": "Iniciar jogo",
+    "share": "Ligação para partilhar",
+    "copy": "Copiar ligação",
+    "copied": "Ligação copiada!"
+  },
   "startPage": {
     "team": "Nome da equipa",
     "btn": "Iniciar jogo"

@@ -10,11 +10,24 @@
       "btn": "Cargar demo"
     },
     "section2": {
-      "title": "Juego propio",
+      "title": "Juego propio o de terceros",
       "body": "Crea tu propio 'escape game' a partir del archivo de la demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importa el archivo y comprueba que funciona correctamente. Una vez hecho, cualquiera podrá jugar con tu archivo desde esta aplicación web.",
-      "btn": "Importar juego"
+      "local": {
+        "title": "Desde un archivo local",
+        "body": "Selecciona un archivo del dispositivo.",
+        "btn": "Cargar juego"
+      },
+      "url": {
+        "title": "Desde una URL",
+        "body": "Introduce la URL del archivo.",
+        "btn": "Cargar juego"
+      }
     },
-    "loadingError": "Error desconocido cargando el juego"
+    "loading": "Cargando...",
+    "loadingError": "Error desconocido cargando el juego",
+    "urlRequired": "Introduce una URL.",
+    "invalidUrl": "Introduce una URL válida (http:// o https://).",
+    "urlLoadError": "No se ha podido cargar el juego desde la URL."
   },
   "gamePreview": {
     "description": "Descripción",
@@ -25,8 +38,11 @@
     "author": "Autor",
     "license": "Licencia",
     "cancel": "Cancelar",
-    "start": "Iniciar juego"
-  },  
+    "start": "Iniciar juego",
+    "share": "Enlace para compartir",
+    "copy": "Copiar enlace",
+    "copied": "¡Enlace copiado!"
+  },
   "startPage": {
     "team": "Nombre del equipo",
     "btn": "Empezar partida"

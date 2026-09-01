@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Démo",
-      "body": "Essayez un escape game de démonstration pour voir la navigation, les réponses correctes/incorrectes, les indices et le résumé final. La démo est disponible en format <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
+      "body": "Essayez un escape game de démonstration pour voir la navigation, la gestion des réponses correctes et incorrectes, des indices et le résumé final avec les statistiques. La démo est disponible au format <csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>.",
       "btn": "Charger la démo"
     },
     "section2": {
-      "title": "Jeu personnalisé",
-      "body": "Créez votre propre escape game à partir du fichier de démo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importez-le et vérifiez son bon fonctionnement. Ensuite, tout le monde pourra y jouer via cette application web.",
-      "btn": "Importer un jeu"
+      "title": "Jeu personnalisé ou tiers",
+      "body": "Créez votre propre escape game à partir du fichier de démo (<csvLink>CSV</csvLink> ou <jsonLink>JSON</jsonLink>). Importez le fichier et vérifiez qu'il fonctionne correctement. Ensuite, tout le monde pourra jouer avec votre fichier depuis cette application web.",
+      "local": {
+        "title": "Depuis un fichier local",
+        "body": "Sélectionnez un fichier sur votre appareil.",
+        "btn": "Charger le jeu"
+      },
+      "url": {
+        "title": "Depuis une URL",
+        "body": "Saisissez l'URL du fichier.",
+        "btn": "Charger le jeu"
+      }
     },
-    "loadingError": "Erreur inconnue lors du chargement du jeu"
+    "loading": "Chargement...",
+    "loadingError": "Erreur inconnue lors du chargement du jeu",
+    "urlRequired": "Saisissez une URL.",
+    "invalidUrl": "Saisissez une URL valide (http:// ou https://).",
+    "urlLoadError": "Impossible de charger le jeu depuis l'URL."
   },
   "gamePreview": {
     "description": "Description",
@@ -25,8 +38,11 @@
     "author": "Auteur",
     "license": "Licence",
     "cancel": "Annuler",
-    "start": "Commencer le jeu"
-  },  
+    "start": "Commencer le jeu",
+    "share": "Lien de partage",
+    "copy": "Copier le lien",
+    "copied": "Lien copié !"
+  },
   "startPage": {
     "team": "Nom de l'équipe",
     "btn": "Commencer la partie"

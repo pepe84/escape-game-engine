@@ -10,11 +10,24 @@
       "btn": "Carregar demo"
     },
     "section2": {
-      "title": "Joc propi",
+      "title": "Joc propi o de tercers",
       "body": "Crea el teu propi 'escape game', a partir del fitxer de la demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importa el fitxer i comprova que funciona correctament. Un cop fet, qualsevol podrà jugar amb el teu fitxer des d'aquesta aplicació web.",
-      "btn": "Importar joc"
+      "local": {
+        "title": "Des d'un fitxer local",
+        "body": "Selecciona un fitxer del dispositiu.",
+        "btn": "Carregar joc"
+      },
+      "url": {
+        "title": "Des d'una URL",
+        "body": "Introdueix la URL del fitxer.",
+        "btn": "Carregar joc"
+      }
     },
-    "loadingError": "Error desconegut carregant el joc"
+    "loading": "Carregant...",
+    "loadingError": "Error desconegut carregant el joc",
+    "urlRequired": "Introdueix una URL.",
+    "invalidUrl": "Introdueix una URL vàlida (http:// o https://).",
+    "urlLoadError": "No s'ha pogut carregar el joc des de la URL."
   },
   "gamePreview": {
     "description": "Descripció",
@@ -25,8 +38,11 @@
     "author": "Autor",
     "license": "Llicència",
     "cancel": "Cancel·lar",
-    "start": "Iniciar joc"
-  },  
+    "start": "Iniciar joc",
+    "share": "Enllaç per compartir",
+    "copy": "Copiar enllaç",
+    "copied": "Enllaç copiat!"
+  },
   "startPage": {
     "team": "Nom de l'equip",
     "btn": "Començar partida"

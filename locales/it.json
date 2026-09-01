@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "Demo",
-      "body": "Prova un escape game dimostrativo per vedere la navigazione, risposte corrette/errate, suggerimenti e statistiche finali. La demo è disponibile in formato <csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>.",
+      "body": "Prova un escape game dimostrativo per vedere la navigazione, la gestione delle risposte corrette e errate, dei suggerimenti e il riepilogo finale con le statistiche. La demo è disponibile in formato <csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>.",
       "btn": "Carica demo"
     },
     "section2": {
-      "title": "Gioco personalizzato",
-      "body": "Crea il tuo escape game a partire dal file demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importalo e verifica che funzioni correttamente. Poi chiunque potrà giocarci da questa web app.",
-      "btn": "Importa gioco"
+      "title": "Gioco personalizzato o di terzi",
+      "body": "Crea il tuo escape game a partire dal file demo (<csvLink>CSV</csvLink> o <jsonLink>JSON</jsonLink>). Importa il file e verifica che funzioni correttamente. Dopodiché, chiunque potrà giocare con il tuo file da questa applicazione web.",
+      "local": {
+        "title": "Da un file locale",
+        "body": "Seleziona un file dal dispositivo.",
+        "btn": "Carica gioco"
+      },
+      "url": {
+        "title": "Da un URL",
+        "body": "Inserisci l'URL del file.",
+        "btn": "Carica gioco"
+      }
     },
-    "loadingError": "Errore sconosciuto durante il caricamento del gioco"
+    "loading": "Caricamento...",
+    "loadingError": "Errore sconosciuto durante il caricamento del gioco",
+    "urlRequired": "Inserisci un URL.",
+    "invalidUrl": "Inserisci un URL valido (http:// o https://).",
+    "urlLoadError": "Impossibile caricare il gioco dall'URL."
   },
   "gamePreview": {
     "description": "Descrizione",
@@ -25,8 +38,11 @@
     "author": "Autore",
     "license": "Licenza",
     "cancel": "Annulla",
-    "start": "Inizia gioco"
-  },  
+    "start": "Inizia gioco",
+    "share": "Link per condividere",
+    "copy": "Copia link",
+    "copied": "Link copiato!"
+  }, 
   "startPage": {
     "team": "Nome squadra",
     "btn": "Inizia partita"

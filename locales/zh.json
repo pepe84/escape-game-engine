@@ -6,15 +6,28 @@
   "homePage": {
     "section1": {
       "title": "演示",
-      "body": "试玩一个逃脱游戏演示，了解导航流程、正确/错误答案、提示以及最终统计。演示提供 <csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink> 格式。",
+      "body": "试玩一个逃脱游戏演示，了解导航流程、正确和错误答案、提示以及最终统计。演示提供 <csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink> 格式。",
       "btn": "加载演示"
     },
     "section2": {
-      "title": "自定义游戏",
-      "body": "基于演示文件创建你自己的逃脱游戏（<csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink>）。导入后检查是否正常运行。之后任何人都可以在此网页应用中游玩。",
-      "btn": "导入游戏"
+      "title": "自定义游戏或第三方游戏",
+      "body": "基于演示文件创建你自己的逃脱游戏（<csvLink>CSV</csvLink> 或 <jsonLink>JSON</jsonLink>）。导入文件并检查是否正常运行。完成后，任何人都可以通过此网页应用使用你的文件进行游戏。",
+      "local": {
+        "title": "从本地文件",
+        "body": "从设备中选择一个文件。",
+        "btn": "加载游戏"
+      },
+      "url": {
+        "title": "从 URL",
+        "body": "输入文件的 URL。",
+        "btn": "加载游戏"
+      }
     },
-    "loadingError": "加载游戏时发生未知错误"
+    "loading": "加载中...",
+    "loadingError": "加载游戏时发生未知错误",
+    "urlRequired": "请输入 URL。",
+    "invalidUrl": "请输入有效的 URL（http:// 或 https://）。",
+    "urlLoadError": "无法从该 URL 加载游戏。"
   },
   "gamePreview": {
     "description": "描述",
@@ -25,8 +38,11 @@
     "author": "作者",
     "license": "许可证",
     "cancel": "取消",
-    "start": "开始游戏"
-  },  
+    "start": "开始游戏",
+    "share": "分享链接",
+    "copy": "复制链接",
+    "copied": "链接已复制！"
+  }, 
   "startPage": {
     "team": "队伍名称",
     "btn": "开始游戏"
