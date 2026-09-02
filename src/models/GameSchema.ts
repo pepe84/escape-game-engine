@@ -5,6 +5,9 @@ const QuestionTypeSchema = z.enum([
   "number",
   "select",
   "code",
+  "code-numeric",
+  "code-alpha",
+  "code-alphanumeric",
   "date"
 ]);
 

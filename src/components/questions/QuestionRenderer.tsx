@@ -13,11 +13,14 @@ export function QuestionRenderer({
 }: QuestionProps) {
 
   const renderers = {
-    text: TextQuestion,
-    number: NumberQuestion,
-    select: SelectQuestion,
-    code: CodeQuestion,
-    date: DateQuestion
+    "text": TextQuestion,
+    "number": NumberQuestion,
+    "select": SelectQuestion,
+    "code": CodeQuestion,
+    "code-numeric": CodeQuestion,
+    "code-alpha": CodeQuestion,
+    "code-alphanumeric": CodeQuestion,    
+    "date": DateQuestion
   } as const;
 
   const Component = renderers[question.type];

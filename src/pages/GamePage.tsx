@@ -90,7 +90,7 @@ export function GamePage() {
 
     const result = QuestionEngineService.evaluate(page.question!, answer);
 
-    if (page.question!.type === "code" && result.positions) {
+    if (QuestionEngineService.isCodeQuestion(page.question!.type) && result.positions) {
       setCodeFeedback(result.positions);
     }
 
