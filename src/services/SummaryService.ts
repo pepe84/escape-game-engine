@@ -9,6 +9,8 @@ export class SummaryService {
 
   static readonly MINUTE_COST = 5;
 
+  static readonly ERROR_COST = 10;
+  
   static readonly HINT_COST = 25;
 
   static readonly SOLUTION_COST = 100;
@@ -81,13 +83,15 @@ export class SummaryService {
     const solutions = this.getSolutionsViewed(state);
     const totalQuestions = this.getTotalQuestions(game);
     const correctAnswers = this.getCorrectAnswers(state);
+    const wrongAnswers = this.getWrongAnswers(state);
     const completionRatio = correctAnswers / totalQuestions;
     const overtimeMinutes = this.getOvertimeMinutes(game, state);
 
     const score = this.BASE_SCORE * completionRatio
       - overtimeMinutes * this.MINUTE_COST
       - hints * this.HINT_COST
-      - solutions * this.SOLUTION_COST;
+      - solutions * this.SOLUTION_COST
+      - wrongAnswers * this.ERROR_COST;
 
     return Math.max(score, 0);
   }
