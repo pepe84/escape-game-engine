@@ -41,7 +41,7 @@
       }
     },
     {
-      "title": "Codi secret",
+      "title": "Codi numèric",
       "content": "El gran germà et vigila...",
       "question": {
         "type": "code",
@@ -53,6 +53,28 @@
         ],
         "answer": "1984",
         "penaltySeconds": 15
+      }
+    },
+    {
+      "title": "Codi lletres",
+      "content": "Salutacions des de Hawai!",
+      "question": {
+        "type": "code-alpha",
+        "config": {
+          "length": 5
+        },
+        "answer": "ALOHA"
+      }
+    },
+    {
+      "title": "Codi alfanumèric",
+      "content": "Un robot famós de Star Wars?",
+      "question": {
+        "type": "code-alphanumeric",
+        "config": {
+          "length": 4
+        },
+        "answer": "R2D2"
       }
     },
     {

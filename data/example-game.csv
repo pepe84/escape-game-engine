@@ -7,7 +7,9 @@ title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,pen
 Benvinguts,Comença l'aventura,,,,,,,,,
 Número,Comencem pel principi!,number,,,,Quin és el primer número?,,,1,
 Text lliure,A quina ciutat es celebra el festival Nowa Reggae?,text,No té en compte minúscules / majúscules,8,,És al Garraf,Comença per V,Acaba per -nova,Vilanova,30
-Codi secret,El gran germà et vigila...,code,,4,,Llibre de ciencia ficció,,,1984,15
+Codi numèric,El gran germà et vigila...,code,,4,,Llibre de ciencia ficció,,,1984,15
+Codi lletres,Salutacions des de Hawai!,code-alpha,,5,,,,,ALOHA,
+Codi alfanumèric,Un robot famós de Star Wars?,code-alphanumeric,,3,,,,,R2D2,
 Escull una opció,Quin color podem veure amunt i avall?,select,,,Blau|Vermell|Verd|Groc,Què veus si mires amunt i avall mentre et banyes?,Pensa en una obra de teatre,,Blau,
 Mar i cel,El blau del mar i del cel!,,,,,,,,,
 Data històrica,Quin dia històric commemora la Diada de Catalunya?,date,El format de data depen del navegador,,,,,,11-09-1714,
