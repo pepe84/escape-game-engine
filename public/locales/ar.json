@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} من {{total}}",
-    "finishBtn": "إنهاء"
+    "finishBtn": "إنهاء",
+    "finishConfirm": "هل أنت متأكد من أنك تريد إنهاء اللعبة؟"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "تلميح {{i}}",
       "hintBtn": "عرض التلميح {{i}}",
       "solution": "الحل",
-      "solutionBtn": "عرض الحل"
+      "solutionBtn": "عرض الحل",
+      "solutionConfirm": "هل أنت متأكد من أنك تريد عرض الحل؟"
     }
   },
   "summaryPage": {

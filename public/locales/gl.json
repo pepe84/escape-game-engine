@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} de {{total}}",
-    "finishBtn": "Finalizar"
+    "finishBtn": "Finalizar",
+    "finishConfirm": "Tes a certeza de que queres rematar a partida?"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "Pista {{i}}",
       "hintBtn": "Amosar pista {{i}}",
       "solution": "Solución",
-      "solutionBtn": "Amosar solución"
+      "solutionBtn": "Amosar solución",
+      "solutionConfirm": "Tes a certeza de que queres amosar a solución?"
     }
   },
   "summaryPage": {

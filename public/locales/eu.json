@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} / {{total}}",
-    "finishBtn": "Amaitu"
+    "finishBtn": "Amaitu",
+    "finishConfirm": "Ziur partida amaitu nahi duzula?" 
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "Pista {{i}}",
       "hintBtn": "Pista {{i}} erakutsi",
       "solution": "Soluzioa",
-      "solutionBtn": "Soluzioa erakutsi"
+      "solutionBtn": "Soluzioa erakutsi",
+      "solutionConfirm": "Ziur soluzioa erakutsi nahi duzula?"
     }
   },
   "summaryPage": {

@@ -23,22 +23,17 @@ export function HintsModal({
   const { t } = useTranslation();
   const [tab, setTab] = useState(0);
   const unlockedHints = HintEngineService.countUsedHints(state);
-
-  const solutionUnlocked =
-    HintEngineService.isSolutionUnlocked(
-      state
-    );
-
-  const allHintsUnlocked =
-    HintEngineService.allHintsUnlocked(
-      state
-    );
+  const solutionUnlocked = HintEngineService.isSolutionUnlocked(state);
+  const allHintsUnlocked = HintEngineService.allHintsUnlocked(state);
 
   const unlockNext = () => {
     if (!allHintsUnlocked) {
       onUnlockHint();
       setTab(unlockedHints);
     } else if (!solutionUnlocked) {
+      const ok = confirm(t("gamePage.hints.solutionConfirm"));
+      if (!ok) return;
+      
       onUnlockSolution();
       setTab(hints.length);
     }

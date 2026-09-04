@@ -12,7 +12,7 @@ export function Header() {
   const navigate = useNavigate();
 
   const abandonGame = () => {
-    const ok = confirm("Segur que vols finalitzar la partida?");
+    const ok = confirm(t("layout.finishConfirm"));
     if (!ok) return;
 
     reset();
