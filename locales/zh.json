@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} / {{total}}",
-    "finishBtn": "完成"
+    "finishBtn": "完成",
+    "finishConfirm": "确定要结束游戏吗？"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "提示 {{i}}",
       "hintBtn": "显示提示 {{i}}",
       "solution": "答案",
-      "solutionBtn": "显示答案"
+      "solutionBtn": "显示答案",
+      "solutionConfirm": "确定要显示答案吗？"
     }
   },
   "summaryPage": {

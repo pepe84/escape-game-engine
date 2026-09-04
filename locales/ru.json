@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} из {{total}}",
-    "finishBtn": "Завершить"
+    "finishBtn": "Завершить",
+    "finishConfirm": "Вы уверены, что хотите завершить игру?"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "Подсказка {{i}}",
       "hintBtn": "Показать подсказку {{i}}",
       "solution": "Решение",
-      "solutionBtn": "Показать решение"
+      "solutionBtn": "Показать решение",
+      "solutionConfirm": "Вы уверены, что хотите показать решение?"
     }
   },
   "summaryPage": {

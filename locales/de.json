@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} von {{total}}",
-    "finishBtn": "Beenden"
+    "finishBtn": "Beenden",
+    "finishConfirm": "Möchtest du die Partie wirklich beenden?"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "Hinweis {{i}}",
       "hintBtn": "Hinweis {{i}} anzeigen",
       "solution": "Lösung",
-      "solutionBtn": "Lösung anzeigen"
+      "solutionBtn": "Lösung anzeigen",
+      "solutionConfirm": "Möchtest du die Lösung wirklich anzeigen?"
     }
   },
   "summaryPage": {

@@ -1,7 +1,8 @@
 {
   "layout": {
     "counter": "{{current}} de {{total}}",
-    "finishBtn": "Finalitzar"
+    "finishBtn": "Finalitzar",
+    "finishConfirm": "Segur que vols finalitzar la partida?"
   },
   "homePage": {
     "section1": {
@@ -58,7 +59,8 @@
       "hint": "Pista {{i}}",
       "hintBtn": "Mostrar pista {{i}}",
       "solution": "Solució",
-      "solutionBtn": "Mostrar solució"
+      "solutionBtn": "Mostrar solució",
+      "solutionConfirm": "Segur que vols mostrar la solució?"
     }
   },
   "summaryPage": {
