@@ -172,8 +172,8 @@ export function GamePage() {
             />
             
             {page.question?.formatHelp && (
-            <div className="text-gray-500 text-sm">
-              {page.question?.formatHelp}
+            <div className="text-gray-500">
+              ⬆️ {page.question?.formatHelp}
             </div>
             )}
 
