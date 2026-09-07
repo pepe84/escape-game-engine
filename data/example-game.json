@@ -3,7 +3,7 @@
   "description": "Joc de prova",
   "durationMinutes": 15,
   "defaultPenaltySeconds": 45,
-  "version": "1.0",
+  "version": "1.1",
   "author": "Escape Game Engine",
   "license": "CC BY-NC-SA 4.0",
   "pages": [
@@ -38,6 +38,24 @@
         ],
         "answer": "Vilanova",
         "penaltySeconds": 30
+      }
+    },
+    {
+      "title": "Text lliure amb expressió regular (regex)",
+      "content": "Amb quina mà podem tocar la guitarra?",
+      "question": {
+        "type": "text",
+        "formatHelp": "No té en compte minúscules / majúscules",
+        "answer": "/^(esquerra|dreta|ambdues|les dues)$/i"
+      }
+    },
+    {
+      "title": "Text lliure amb expressió regular (regex)",
+      "content": "Què utilitzem per fer ombra a la platja?",
+      "question": {
+        "type": "text",
+        "formatHelp": "No té en compte minúscules / majúscules",
+        "answer": "/^((un|el) )?parasol$/i"
       }
     },
     {

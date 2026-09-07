@@ -1,12 +1,14 @@
 METADATA,,,,,,,,,,
 title,description,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
-Escape Game Demo,Joc de prova,15,45,1.0,Escape Game Engine,CC BY-NC-SA 4.0,,,,
+Escape Game Demo,Joc de prova,15,45,1.1,Escape Game Engine,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,
 PAGES,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds
 Benvinguts,Comença l'aventura,,,,,,,,,
 Número,Comencem pel principi!,number,,,,Quin és el primer número?,,,1,
 Text lliure,A quina ciutat es celebra el festival Nowa Reggae?,text,No té en compte minúscules / majúscules,8,,És al Garraf,Comença per V,Acaba per -nova,Vilanova,30
+Text lliure amb expressió regular (regex),Amb quina mà podem tocar la guitarra?,text,No té en compte minúscules / majúscules,,,,,,/^(esquerra|dreta|ambdues|les dues)$/i
+Text lliure amb expressió regular (regex),Què utilitzem per fer ombra a la platja?,text,No té en compte minúscules / majúscules,,,,,,/^((un|el) )?parasol$/i
 Codi numèric,El gran germà et vigila...,code,,4,,Llibre de ciencia ficció,,,1984,15
 Codi lletres,Salutacions des de Hawai!,code-alpha,,5,,,,,ALOHA,
 Codi alfanumèric,Un robot famós de Star Wars?,code-alphanumeric,,3,,,,,R2D2,
