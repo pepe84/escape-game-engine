@@ -22,7 +22,6 @@ export function HomePage() {
   const queryUrlLoaded = useRef(false);
 
   const exampleJsonUrl = `${import.meta.env.BASE_URL}data/example-game.json`;
-
   const exampleCsvUrl = `${import.meta.env.BASE_URL}data/example-game.csv`;
 
   /*

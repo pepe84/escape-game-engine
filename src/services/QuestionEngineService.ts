@@ -86,8 +86,44 @@ export class QuestionEngineService {
       .toUpperCase();
   }
 
+  private static isRegexLiteral(value: string): boolean {
+    return /^\/.*\/[dgimsuvy]*$/.test(value);
+  }
+
+  private static parseRegexLiteral(value: string): RegExp | null {
+    const match = value.match(/^\/(.*)\/([dgimsuvy]*)$/s);
+
+    if (!match) {
+      return null;
+    }
+
+    try {
+      return new RegExp(match[1], match[2]);
+    } catch {
+      return null;
+    }
+  }
+
   private static evalText(question: Question, answer: string): QuestionEvaluationResult {
     const normalizedAnswer = this.normalizeText(String(answer ?? ""));
+    const expected = String(question.answer ?? "").trim();
+
+    if (this.isRegexLiteral(expected)) {
+
+      const regex = this.parseRegexLiteral(expected);
+
+      if (!regex) {
+        return {
+          correct: false,
+          error: "⚠️⚠️⚠️ Invalid regular expression"
+        };
+      }
+
+      return {
+        correct: regex.test(normalizedAnswer)
+      };
+    }
+
     const normalizedExpected = this.normalizeText(question.answer);
     return {
       correct: normalizedAnswer === normalizedExpected

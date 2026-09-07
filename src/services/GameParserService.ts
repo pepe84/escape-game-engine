@@ -98,6 +98,17 @@ export class GameParserService {
     };
   }
   
+  private static parseList(value?: string): string[] {
+    if (!value?.trim()) {
+      return [];
+    }
+
+    return value
+      .split("|")
+      .map(item => item.trim())
+      .filter(Boolean);
+  }
+
   private static rowToObject(
     headers: string[],
     values: string[]
@@ -153,13 +164,9 @@ export class GameParserService {
     }
 
     if (row.options?.trim()) {
-      config.options =
-        row.options
-          .split("|")
-          .map(option => option.trim())
-          .filter(Boolean);
+      config.options = this.parseList(row.options);
     }
-
+    
     if (Object.keys(config).length > 0) {
       question.config = config;
     }
