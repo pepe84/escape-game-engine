@@ -2,9 +2,7 @@ METADATA,,,,,,,,,,
 title,description,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
 La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú. Requereix mapa imprès.
 
-Agraïments a Paula i Sandra per les seves aportacions a la versió inicial.
-
-Nota tècnica del mapa: Capa base i imatges generades amb IA. Composició realitzada amb programari lliure GIMP.",120,30,1.2,Pep Castelltort,CC BY-NC-SA 4.0,,,,
+Agraïments a Paula i Sandra per les seves aportacions a la versió inicial.",120,30,1.2,Pep Castelltort,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,
 PAGES,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds
@@ -15,7 +13,9 @@ La Capitana Rocanegra era una pirata que operava entre el Garraf i Mallorca. Els
 Quan va saber que la Marina Reial la perseguia, va desembarcar secretament a Vilanova i va amagar el seu tresor. Però no va deixar la ubicació exacta.
 
 Només un mapa i un quadern de bitàcola.",,,,,,,,,
-🗺️ Mapa,Confirmeu que teniu el mapa ABANS de continuar.,,,,,,,,,
+🗺️ Mapa,"Confirmeu que teniu el mapa ABANS de continuar.
+
+Nota tècnica del mapa: Capa base i imatges generades amb IA. Composició realitzada amb programari lliure GIMP.",,,,,,,,,
 ❗📝  PRENEU NOTA,"La història de la Capitana succeeix a l'any 1786 i, per tant, és el context històric del quadern de bitàcola integrat en aquest joc. Aquesta és una dada important. 
 
 Durant el joc, viatjarem en el temps i hi haurà referències a fets i llocs de la Vilanova i la Geltrú del passat (de 1786) i del present.
