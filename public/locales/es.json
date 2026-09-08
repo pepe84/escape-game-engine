@@ -35,7 +35,7 @@
     "version": "Versión",
     "duration": "Duración",
     "questions": "Preguntas",
-    "penalty": "Penalización por pregunta",
+    "penalty": "Penalización por error",
     "author": "Autor",
     "license": "Licencia",
     "cancel": "Cancelar",
