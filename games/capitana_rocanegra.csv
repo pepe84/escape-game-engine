@@ -96,7 +96,7 @@ Font: Biblioteca Museu Víctor Balaguer (https://victorbalaguer.cat/historia)",,
 
 «Hem arribat a la biblioteca i hem trobat una dona a les escales de l'entrada, pensativa, llegint un llibre. Li he preguntat si coneixia el pescador del port i m'ha dit que sí amb molta alegría. Li he donat les petxines de part seva i li he dit que necessitaven un nou vestuari. Ella ha dit que ens ajudaria encantada i ha marxat. Al cap d'una estona ha tornat amb una mateixa peça de roba per cadascun dels tres.» 
 
-Quina peça de roba li ha donat la naturalista a la Capitana i acompanyants?",text,,,,Fixeu-vos en els dos personatges que custodien l'entrada de l'edifici.,Hi ha una peça de roba que comparteixen ambdós personatges.,La peça es pot posar a sobre de la vestimenta actual.,/^((una|la) )?capa?$/i,
+Quina peça de roba li ha donat la naturalista a la Capitana i acompanyants?",text,Observeu l'edifici.,,,Fixeu-vos en els dos personatges que custodien l'entrada de l'edifici.,Hi ha una peça de roba que comparteixen ambdós personatges.,La peça es pot posar a sobre de la vestimenta actual.,/^((una|la) )?capa?$/i,
 🐚 Les petxines,"Quadern de bitàcola:
 
 «Ja hem canviat de vestuari. La naturalista diu que seguim el rastre de les petxines per continuar el nostre camí.»
