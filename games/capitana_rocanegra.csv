@@ -1,0 +1,265 @@
+METADATA,,,,,,,,,,
+title,description,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
+La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú. Requereix mapa imprès.
+
+Agraïments a Paula i Sandra per les seves aportacions a la versió inicial.
+
+Nota tècnica del mapa: Capa base i imatges generades amb IA. Composició realitzada amb programari lliure GIMP.",120,30,1.2,Pep Castelltort,CC BY-NC-SA 4.0,,,,
+,,,,,,,,,,
+PAGES,,,,,,,,,,
+title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds
+📜 Introducció,"Any 1786.
+
+La Capitana Rocanegra era una pirata que operava entre el Garraf i Mallorca. Els vaixells mercants la temien perquè atacava sense deixar rastre i desapareixia entre les costes rocoses.
+
+Quan va saber que la Marina Reial la perseguia, va desembarcar secretament a Vilanova i va amagar el seu tresor. Però no va deixar la ubicació exacta.
+
+Només un mapa i un quadern de bitàcola.",,,,,,,,,
+🗺️ Mapa,Confirmeu que teniu el mapa ABANS de continuar.,,,,,,,,,
+❗📝  PRENEU NOTA,"La història de la Capitana succeeix a l'any 1786 i, per tant, és el context històric del quadern de bitàcola integrat en aquest joc. Aquesta és una dada important. 
+
+Durant el joc, viatjarem en el temps i hi haurà referències a fets i llocs de la Vilanova i la Geltrú del passat (de 1786) i del present.
+
+Per aquesta raó, el mapa que teniu a les mans conté ubicacions que no existien al 1786. És una llicència per facilitar la exploració de la ciutat a dia d'avui i guanyar jugabiltat.",,,,,,,,,
+🌊 Travessia marítima,"Quadern de bitàcola:
+
+«Sóc Rocanegra. Capitana del Rebentat de Tramuntana.
+
+La meva tripulació i jo hem arribat a la badia de Vilanova al capvespre i hem fondejat fora de l'abast de les torres de guaita. No podem arribar fins la costa amb el Rebentat de Tramuntana perquè cridaríem massa l'atenció i, per això, he decidit desembarcar amb dues membres de la tripulació (una oficial i un mariner), deixant el contramestre a càrrec del vaixell i la resta de la tripulació. 
+
+Ja s'ha fet fosc i hem salpat amb el bot de rems rumb a la costa. Durant el trajecte, ens hem creuat amb un ésser inesperat...»
+
+Quin ésser es va creuar en el camí de la nostra Capitana?",text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,Va ser un animal marí.,Apareix una de color blanc en una novela clàssica.,La novela clàssica és Moby Dick.,/^((la|una) )?balena$/i,
+🐋 La balena,"Efectivament, es va creuar amb una balena. Actualment, podem trobar una escultura de balena a la Plaça Trajo del Garbí ubicada gairebé al final de l'espigó que toca la Platja de Ribes Roges.
+
+Dirigiu-vos cap allà. Podreu aprofitar per remullar-vos si fa calor.",,,,,,,,,
+ℹ️ Plaça Trajo del Garbí,"El passeig elevat i la font ornamental són dos nous espais de referència per a  la ciutadania a la zona del Trajo Garbí que formem ja part de la identitat de Vilanova  i la Geltrú. 
+
+La font incorpora l'escultura d'una cua de balena per divulgar l'activitat de recerca i d'investigació que es fa a través del Projecte Rorqual amb els cetacis que visiten la costa del Garraf, i contribuir a conscienciar el ciutadà amb el medi ambient. 
+
+Font: Vilanova Turisme (https://www.vilanovaturisme.cat/passeig_elevat_del_port_i_font_ornamental)",,,,,,,,,
+🧭 Rumb,"Quadern de bitàcola:
+
+«Hem visualitzat una patrulla de la Marina Reial a la costa i hem navegat darrera la balena, seguint la seva estela per evitar ser detectats.»
+
+Quina direcció va seguir el bot de la Capitana per aproximar-se a la costa?",select,Trieu una opció del deplegable,,Nord|Est|Oest|Sud,Mireu on apunta la cua de la balena.,Invertiu la direcció de la cua de la balena.,,Nord,
+🚣‍♀️ Desembarcament,"Tot i que ara us trobeu en terra ferma, recordeu que la Capitana continua a la mar.
+
+Quadern de bitàcola:
+
+«Després de burlar la guàrdia, el mariner ha vist una altra patrulla a la platja i la oficial ha suggerit prendre una ruta alternativa. Finalment, hem aconseguit tocar terra sense ser detectats, deixant el bot ancorat.»
+
+On va desembarcar la Capitana?",number,Indiqueu el número de la ubicació del mapa,,,Cerqueu una àncora al mapa.,No surt a la llegenda de llocs d'interès.,,0,
+⚓ Àncora,"Dirigiu-vos al momument amb una àncora ubicat al Passeig Marítim que està a la rotonda que connecta amb la zona del Trajo Garbí on esteu ara mateix. 
+
+No continueu el joc fins haver-hi arribat.",,,,,,,,,
+🌚 Negra nit,Era negra nit i la Capitana necessitava quelcom per moure'ns sense sopegar. Què va utilitzar?,text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,Fixeu-vos bé en tots els elements del monument.,Mireu a sobre de l'àncora.,,/^((un|el) )?fanal(et)?$/i,
+👤 Contacte local,"Quadern de bitàcola:
+
+«Coneixia un pescador local que ens ajudaria un cop a terra.»
+
+On trobarem el nostre contacte local?",number,Indiqueu el número de la ubicació del mapa,,,Penseu on podem trobar pescadors.,,,16,
+⛵ Plaça del Port,"Els pescadors surten de port al matí i hi tornen el mateix dia per vendre o registrar el peix a la confraria o al punt de primera venda. Tot i que la majoria de flota opera d'aquesta manera, algunes embarcacions, com les tonyineres, poden estar-se diversos dies a la mar.
+
+No continueu el joc fins haver arribat a la Plaça del Port.
+
+A partir d'ara, cada cop que trobeu una nova ubicació on anar, no contineu fins haver-hi arribat.",,,,,,,,,
+ℹ️ Plaça del Port,"La plaça, inaugurada el juny de 2018, és resultat de l’obertura del port a la ciutat, tot comportant l’eliminació de la tanca que havia delimitat les dependències portuàries, i d’un procés d’urbanització per integrar-la al conjunt de la façana marítima. L’any 2014 es va celebrar un procés de participació ciutadana que va culminar amb un concurs d’idees, per definir col·lectivament l’aspecte de la plaça.
+
+Font: Ajuntament de VNG (https://www.vilanova.cat/directori/detall?id=36244)",,,,,,,,,
+🎣 El pescador,"Quadern de bitàcola:
+
+«Hem arribat a la Plaça del Port i, durant el trajecte, hem vist bastant moviment per les hores que son. La ciutat està de celebració. Sembla que la vila està de revetlla.
+
+Hem trobat el nostre pescador que, com sempre, va acompanyat de la seva filla i ens hem apropat a parlar amb ell. Després de tants dies de travesia marítima, no sabem ni quin dia és avui. És el primer que li hem preguntat.»
+
+Quina és la data d'arribada de la Capitana a Vilanova?",date,El format de data depen del navegador,,,Cerqueu una estàtua.,Els Sants tenen un dia propi al calendari i un Sant és el patró dels pescadors.,Recordeu que la història suceeix a l'any 1786 i la vila està de revetlla.,28-06-1786,
+🔍 La naturalista,"Quadern de bitàcola:
+
+«Era la revetlla de Sant Pere i la ciutat estava distreta amb la celebració, incloent els vigilants de la Marina Reial. Era un moment idoni per transportar el tresor però necessitavem un canvi de vestimenta per passar més desapercebuts. 
+
+El pescador em va donar unes petxines, em va dir que cerques a la seva amiga naturalista i que ella ens ajudaria a canvi d'afegir més petxines a la seva col·lecció.»
+
+Les naturalistes eren unes intel·lectuals de l'època i es passaven el dia enfeinades amb els seus estudis, cercant informació sense aturar.
+
+On anem a cercar la naturalista?",number,Indiqueu el número de la ubicació del mapa,,,Cerqueu un lloc que alberga cultura.,Un lloc amb molts llibres.,,10,
+ℹ️ Biblioteca Museu Víctor Balaguer,"La Biblioteca Museu Víctor Balaguer, inaugurada el 26 d'octubre de 1884, va ser fundada per l'escriptor i polític que li dona nom. És un dels primers edificis a Catalunya construïts de nova planta amb la finalitat específica de mostrar col·leccions al públic i facilitar l'accés a la cultura.
+
+La col·lecció original estava formada pel conjunt de llibres i objectes artístics que el fundador havia aplegat al llarg de la seva vida, juntament amb nombroses donacions que van fer créixer el fons des del primer moment. L’edifici havia estat dissenyat pel mestre d’obres Jeroni Granell, que el va concebre com un temple clàssic, coronat per una cúpula central i amb dues ales simètriques destinades respectivament a Biblioteca i a Museu.
+
+La façana està presidida pel lema “Surge et Ambula” (en llatí, Aixeca’t i camina). Flanquegen l’entrada les escultures de dos vilanovins il·lustres: el poeta romàntic Manuel de Cabanyes (de l’escultor Josep Campeny) i l’arquebisbe Francesc Armanyà (de Manel Fuxà).
+
+Els esgrafiats que ornamenten les parets de les façanes frontals i laterals mostren diferents escenes al·legòriques sobre l’art, la literatura i les ciències, amb diferents símbols que fan referència a la maçoneria, organització a la qual pertanyia el fundador.
+
+Font: Biblioteca Museu Víctor Balaguer (https://victorbalaguer.cat/historia)",,,,,,,,,
+💃 El vestuari,"Quadern de bitàcola:
+
+«Hem arribat a la biblioteca i hem trobat una dona a les escales de l'entrada, pensativa, llegint un llibre. Li he preguntat si coneixia el pescador del port i m'ha dit que sí amb molta alegría. Li he donat les petxines de part seva i li he dit que necessitaven un nou vestuari. Ella ha dit que ens ajudaria encantada i ha marxat. Al cap d'una estona ha tornat amb una mateixa peça de roba per cadascun dels tres.» 
+
+Quina peça de roba li ha donat la naturalista a la Capitana i acompanyants?",text,,,,Fixeu-vos en els dos personatges que custodien l'entrada de l'edifici.,Hi ha una peça de roba que comparteixen ambdós personatges.,La peça es pot posar a sobre de la vestimenta actual.,/^((una|la) )?capa?$/i,
+🐚 Les petxines,"Quadern de bitàcola:
+
+«Ja hem canviat de vestuari. La naturalista diu que seguim el rastre de les petxines per continuar el nostre camí.»
+
+On anem?",number,Indiqueu el número de la ubicació del mapa,,,Fixeu-vos en el terra de les ubicacions del mapa.,Hi ha un mosaic característic amb colors blanc i negre al terra d'una plaça.,,13,
+ℹ️ Plaça de la Vila,"És el centre neuràlgic de Vilanova i la Geltrú, seu de l’Ajuntament i escenari de qualsevol acte cultural, festiu o polític de la ciutat. 
+
+Arreu de Catalunya trobareu molt pocs indrets que concentrin tanta influència indiana com aquesta plaça. De planta rectangular i envoltada d’arcades i palmeres ens trasllada de seguida a l’arquitectura colonial. Tant és així, que ha estat escenari de spots publicitaris de tot tipus on ha representat ser una plaça de qualsevol indret de l’Amèrica Central. 
+
+Pels més curiosos, el mosaic del terra en forma de petxines en blanc i negre és molt recent, del 1970 i, per tant, no és un dels elements indians que podem destacar. 
+
+L’arquitecte original de la plaça de la Vila va ser Francesc de Paula del Villar, qui va iniciar les obres de la Sagrada Família abans que un tal Gaudí li prengués la batuta.
+
+Font: Visit Vilanova (https://visitvilanova.cat/influencia-indiana-a-vilanova-i-la-geltru)",,,,,,,,,
+ ⛏️ L'enterro,"Quadern de bitàcola:
+
+«Hem arribat a la Plaça de la Vila. La guàrdia està despistada amb els preparatius de la festa i no ens fan gaire cas en arribar. Aquest no era un bon lloc on enterrar el tresor però sí que era una bona ubicació on enterrar una pista si necessitava enviar a una altra persona a cercar-ho per mí en el futur.»
+
+Ara, a data d'avui, hi ha un home que fa més d'un segle que vigila aquest indret. Qui és?",text,Indiqueu nom i primer cognom en CATALÀ,,,Observeu el centre de la plaça.,Hi ha una estàtua d'una persona.,,Josep Tomàs Ventosa,
+ℹ️ Josep Tomàs Ventosa i Soler,"Josep Tomàs Ventosa i Soler (Vilanova i la Geltrú, 30 de desembre de 1797 - 30 de juliol de 1874) va ser un polític i comerciant català.
+
+El 1809, amb tan sols 12 anys, va emigrar a Cuba, establint-se a Matanzas, on va adquirir experiència i coneixements en el comerç del tèxtil. Aviat va enriquir-se i obtingué càrrecs públics fins a arribar a ser alcalde de la ciutat cubana en dues ocasions, els anys 1847 i 1852.
+
+Destacà especialment per la seva filantropia. Va construir escoles tant a Vilanova i la Geltrú com a Matanzas, preocupat per l'analfabetisme que hi havia en aquella època. De la seva aportació filantròpica a Vilanova i la Geltrú destaquen les escoles públiques, el suport a edicions locals i la plaça de la Vila, on hi ha un monument a la seva persona. Aquest monument té una rèplica exacta a Matanzas.
+
+Fruit de l'obra de Josep Tomàs Ventosa i Soler, Vilanova i la Geltrú i Matanzas són actualment ciutats agermanades.
+
+Font: Wikipedia (https://ca.wikipedia.org/wiki/Josep_Tom%C3%A0s_Ventosa_i_Soler)",,,,,,,,,
+❓ Codi ocult,"L'estatua no permet desenterrar la pista però la llegenda diu que la pirata va amagar un codi de 4 xifres. Curiosament, el número enterrat per la pirata va ser gravat a un altre indret de la mateixa plaça a la vista de tothom, custodiat per gent d'ordre.
+
+Quin és aquest número?",code,,4,,El número no està a l'estatua. Recordeu que està a un altre indret.,Oberveu a prop de l'element que indica l'hora.,Recordeu que està custodiat per gent d'ordre.,1678,
+❗📝  PRENEU NOTA,"Molt bé! Heu encertat que el codi númeric era 1678. Apunteu aquest codi que potser us farà servei més endavant!
+
+Podeu fer una captura de pantalla si no teniu paper i boli a mà.",,,,,,,,,
+🔔 Les campanes,"Ara aquesta plaça té un rellotge d'agulles que en la època de la Capitana no existia. 
+
+La Capitana escrivia al seu quadern de bitàcola:
+
+«En el meu temps, quan necessitava saber l'hora, escoltava el so de les campanes.  A l'hivern feia més vent i costava més sentir-les. En qualsevol cas, les campanes marcaven la següent etapa del viatge.» 
+
+On anem?",number,Indiqueu el número de la ubicació del mapa,,,Hi ha edificis que tenen un campanar.,Edificis religiosos.,,2,
+⏳ Viatge en el temps,La torre del campanar va ser construïda entre 1670 i 1706 i l'església entre 1790 i 1879. On anem exactament?,select,Trieu una opció del deplegable,,Campanar|Esglèsia,Recordeu que la nostra història suceeix en 1786.,,,Campanar,
+ℹ️ L'àngel,"El campanar, d'estil barroc, està compost per tres cossos coronats per una cúpula i la figura d'un àngel. És l’únic element que s’ha conservat de la vella església gòtica, enderrocada el 1790. La seva construcció es coronà amb la figura monumental d’un àngel que durant la Guerra Civil es fongué per fer bales de canó. L’any 1996 fou col·locada una rèplica.
+
+Font: Ajuntament de VNG (https://www.vilanova.cat/directori/detall?id=33130)",,,,,,,,,
+🪟 Les finestres,"Quadern de bitàcola:
+
+«A vegades, tenia la sensació que ens observàvem. Sobretot, des de posicions elevades...»
+
+Quantes finestres d'arc de mig punt té la torre?",number,No compteu les dues finestres petites dels dos nivells inferiors,,,Es concentren en dos nivells de la torre.,Vigileu que hi ha una cara cega a un dels dos nivells.,,16,
+❗📝  PRENEU NOTA,"Heu comptat correctament el nombre de finestres d'arc de mig punt. Hi ha 8 en dos nivells diferents (una a una cara oculta). En total, 16. Apunteu aquest número que us pot fer servei més endavant.
+
+Podeu fer una captura de pantalla si no teniu paper i boli a mà.",,,,,,,,,
+🏚️ Descans,"Quadern de bitàcola:
+
+«Era tard i l'esgotament acumulat de carregar el tresor era notori. Vaig considerar convenient cercar repòs i seguir al dia següent.
+
+Entre els tres llocs que podia escollir, vaig triar aquell que tenia més coincidències amb una pirata com jo.»
+
+On va passar la nit la Capitana?",select,Trieu una opció del deplegable,,Casa particular|Fonda|Hostal|Posada|Taverna,La paraula pirata conté 7 lletres.,Cerqueu coincidències de lletres a les opcions.,,Casa particular,
+🧺 Provisions,"Quadern de bitàcola:
+
+«M'he despertat i el primer que m'ha vingut al cap és que necessitarem provisions per continuar el viatge de tornada amb el Rebentat de Tramuntana. Més val que encarregui tot el necessari. Espero que no hi hagi manca d'existències arran de la celebració de la revetlla.»
+
+On anem?",number,Indiqueu el número de la ubicació del mapa,,,No podia anar al mercat que avui coneixem perquè encara no existia.,A la vila hi havia un indret on les pageses venien els seus productes.,,8,
+ℹ️ Plaça de les Cols,"Formada a principis del segle XVIII. El nom li ve donat pel fet que l'any 1732 s'hi traslladaren les pageses que venien verdures, procedents de la Plaça Nova (a l'actual carrer Sant Pere). El mercat de verdures es va mantenir durant tot el segle XIX fins la inauguració del Mercat nou. Entre 1939 i 1978 va dur el nom de plaça d'Espanya. Compta amb diversos edificis d'interès històric i conforma un espai urbà de gran interès.
+
+Font: Guia de Patrimoni Històric i Artístic de Municpis Catalans (https://www.poblesdecatalunya.cat/element.php?e=811)",,,,,,,,,
+❗📝  ATENCIÓ,Haureu d'utilitzar les dades recollides fins ara durant la vostra estada al mercat.,,,,,,,,,
+🪙 Monedes,"Quadern de bitàcola:
+
+«A la Plaça coneixia un comerciant que compraba objectes de valor sense fer preguntes per revendre'ls després. Necèssitavem diners per comprar les provisions i, per això, duia algunes joies del tresor al sarró.»
+
+La Capitana va bescanviar tres joies que no havia pagat precisament amb el seu sou per una bossa de monedes. El comerciant sempre li pagava el mateix nombre de reals de plata per cada joia i la Capitana sempre volia fer la transacció en monedes de 8 reals (""real de a ocho""). 
+
+Quantes monedes va rebre la Capitana per les joies?",number,,,,Heu provat d'utilitzar alguna dada descoberta en proves anteriors?,Recordeu que el número de finestres del campanar era 16.,Heu de multiplicar el valor per la quantitat de joies i dividir els reals de plata resultants per 8.,6,
+❓ Paraula secreta,"Amb les sis peces de vuit al sarró, la Capitana ja podia comprar el necessari per a la travessia.
+
+Quadern de bitàcola:
+
+""A una altra parada de la Plaça coneixia una mercadera que sabia el que necessitava pels meus viatges:
+
+1. CORDA
+2. VELAM
+3. FARINA
+4. CIGRONS
+5. BACALLÀ SALAT
+6. OLI
+7. VI O ROM
+8. AIGUA
+
+Utilitzava una paraula secreta per indicar-me que no hi havia cap membre de la Marina a prop i que podíem fer l'intercanvi sense imprevistos.""
+
+Quina era la paraula secreta?",text,,4,,Heu provat d'utilitzar alguna dada descoberta en proves anteriors?,Recordeu que el codi de la Plça de la Vila era 1678.,,COVA,
+🌜 L'amagatall,"Quadern de bitàcola:
+
+«Curiosament, tenia el meu tresor a una cova fins que, a dia d'avui, a la llum de la Lluna, vaig moure'l de lloc. Vam saludar a un infant de camí al nou amagatall i vam arribar al destí.».
+
+On anem?",number,Indiqueu el número de la ubicació del mapa,,,Hi ha algun lloc d'interès que podeu associar a un infant.,"Si sou d'aquí, el carrer de la Lluna marca el camí.",,5,
+ℹ️ Castell de la Geltrú,"L'origen de Vilanova i la Geltrú és el poble de la Geltrú, documentat al s.X, passejar-hi és fer un al salt en el temps i potser en l'espai. Sentiràs l'encant dels racons pintorescos, els carrers desèrtics i les places acollidores. 
+
+Sortim del primer recinte fortificat de Vilanova, el Pont del Nin, en direcció a la plaça del Pou per endinsar-nos al nucli històric de La Geltrú. El carrer de la unió, per on passa el torrent de la Pastera, és la divisió física entre les antigues poblacions de Vilanova i La Geltrú. Des d'aquí no passa desapercebuda la Peixateria Vella, que situada al límit del nucli antic, va encabir el mercat del peix des de l'any 1858 fins a l'any 1941, quan es va obrir el Mercat del Centre.
+
+Pel carrer del Pont arribem al Castell de La Geltrú, reconstruit sobre la base de l'antic castell mediaval i actualment habilitat com a Arxiu Històric Comarcal. 
+
+Font: Vilanova Turisme (https://www.vilanovaturisme.cat/la_geltru)",,,,,,,,,
+⚙️ Canvi de plans,"Quadern de bitàcola:
+
+«Quan vaig arribar al Castell, vaig descobrir que el guardia que tenia sobornat no hi era i això em va fer sospitar. El Castell ja no era un lloc segur.
+
+Abans de desfer camí cap a la mar i tornar al Rebentat de Tramuntana, vaig amagar una part del meu botí on l'aigua canta i la música vigila.»
+
+Qui custodia el tresor de la Capitana?",text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,No és un edifici.,No és un home.,,/^((un|una|el|la|l') )?(angel|querubi)$/i,
+ℹ️ Verger del Mestre Toldrà,"Eduard Toldrà (Vilanova i la Geltrú 1895 - 1962), va ser un notable compositor i músic, director de l'Orquestra Municipal de Barcelona a partir de 1944. L'any 1963, poc després de la seva mort, es va inaugurar aquest monument d'homenatge, amb un relleu en bronze amb el perfil del músic i l'escultura d'un querubí tocant l'arpa.
+
+Font: Guia de Patrimoni Històric i Artístic de Municpis Catalans (https://www.poblesdecatalunya.cat/element.php?e=10499)",,,,,,,,,
+👀 Cofre,Hauríeu de trobar un cofre al mateix jardí on heu trobat la font custodiada per un àngel amb una arpa. No continueu fins tenir-lo localitzat.,,,,,,,,,
+❓ Primer codi,"Quadern de bitàcola:
+
+«Els astres indiquen el camí, 
+no sempre és un camí de roses i, 
+si baixem la guàrdia, 
+podem convertir-nos en calaveres.»
+
+Quin és el codi numèric per alliberar el cofre?",code,Observeu bé el mapa.,4,,Cada línia de text representa un número del codi.,Un eclipsi requereix dos astres i les roses del vent també són roses.,Les torres de guaita estan identificades amb números.,4383,
+🔓 4383,"-> Hi ha un sol, una lluna i un eclipsi (sol i lluna alhora) al mapa que sumen 4 astres. 
+
+-> Hi ha 3 roses del vent. Una gran i dues petites. 
+
+-> Hi ha 4 torres de guaita. Restem els números identificadors de gran a petit perquè «baixem la guàrdia« i 18 - 14 - 9 - 3 és -8.
+
+-> Hi ha una calavera al títol del mapa i dues banderes pirates amb calavera (al vaixell i al castell). En total, 3 calaveres.",,,,,,,,,
+❓ Segon codi,"Quadern de bitàcola:
+
+«Heu arribat fins aquí i heu descobert els secrets que vaig deixar amagats per tota la vila.
+
+Però encara us falta descobrir una última paraula.
+
+Ara tots els descobriments tornaran a tenir un propòsit.
+
+ 1. Les finestres i les joies
+ 2. L'inici de l'any
+ 3. Els meus acompanyants
+ 4. Una peça de vuit
+ 5. L'ordre natural
+
+Si encerteu la paraula, sereu dignes del meu tresor.»
+
+Quin és la paraula oculta per obrir el cofre?",code-alpha,"Convertiu cada pista en una lletra, sabent que A=1, B=2, C=3, ..., Z=26",5,,Hi ha sumes i també composicions de números.,L'ordre de les pistes és natural.,,SABRE,
+⚔️ Sabre,"S (19) + A (1) + B (2) + R (18) + E (5)
+
+Quadern de bitàcola:
+
+«Un sabre no és només una arma, sinó el símbol de qui ha arribat fins al final sense rendir-se.»
+
+La Capitana Rocanegra us reconeix com a dignes de trobar el seu tresor.",,,,,,,,,
+🏴‍☠️ Tresor,"Ja podeu obrir el candau i obtenir la vostra part del tresor. Un/a peça per persona o familla.
+
+La resta del botí se'l va tornar a endur la Capitana Rocanegra i no sé sap on va anar a parar... La llegenda diu que va retornar-ho a la mateixa cova on l'havia amagat inicialment. 
+
+Només se sap que aquesta cova estava ubicada en algun punt de la Serra Tramuntana de la seva Mallorca natal. La seva ubicació exacta, a dia d'avui, continua sent un misteri... Potser ho descobrirem en una pròxima aventura.",,,,,,,,,
+✍️ Nota de l'autor,"""On són les dones?"" és una pregunta que es va fer viral als 2010s a xarxes socials amb l'objectiu de reflexionar sobre la manca de referents femenins a l'esfera pública.
+
+El patrimoni artístic i cultural de la ciutat de Vilanova i la Geltrú, tal i com hem comprovat durant el transcurs d'aquest joc, és un exemple de la invisibilització històrica de les dones a través de la seva subrepresentació en espais públics. Un col·lectiu que representa aproximadament el 50% de la humanitat no hauria de tenir més visibilitat i referents als nostres carrers?
+
+La nostra vila, com tants altres municipis, hauria de fer-se aquesta pregunta i emprendre un camí de memòria, justícia i reparació al respecte.",,,,,,,,,

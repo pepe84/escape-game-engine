@@ -35,7 +35,7 @@
     "version": "Version",
     "duration": "Dauer",
     "questions": "Fragen",
-    "penalty": "Strafe pro Frage",
+    "penalty": "Strafe pro Fehler",
     "author": "Autor",
     "license": "Lizenz",
     "cancel": "Abbrechen",

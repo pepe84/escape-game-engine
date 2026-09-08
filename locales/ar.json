@@ -35,7 +35,7 @@
     "version": "الإصدار",
     "duration": "المدة",
     "questions": "الأسئلة",
-    "penalty": "العقوبة لكل سؤال",
+    "penalty": "العقوبة لكل خطأ",
     "author": "المؤلف",
     "license": "الترخيص",
     "cancel": "إلغاء",

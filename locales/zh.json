@@ -35,7 +35,7 @@
     "version": "版本",
     "duration": "时长",
     "questions": "问题",
-    "penalty": "每题惩罚时间",
+    "penalty": "每次错误的惩罚",
     "author": "作者",
     "license": "许可证",
     "cancel": "取消",
