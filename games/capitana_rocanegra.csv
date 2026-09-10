@@ -2,7 +2,7 @@ METADATA,,,,,,,,,,
 title,description,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
 La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú. Requereix mapa imprès.
 
-Agraïments a Paula i Sandra per les seves aportacions a la versió inicial.",120,30,1.2,Pep Castelltort,CC BY-NC-SA 4.0,,,,
+Agraïments a Paula i Sandra per les seves aportacions a la versió inicial.",120,30,1.3,Pep Castelltort,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,
 PAGES,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds
@@ -59,7 +59,7 @@ No continueu el joc fins haver-hi arribat.",,,,,,,,,
 «Coneixia un pescador local que ens ajudaria un cop a terra.»
 
 On trobarem el nostre contacte local?",number,Indiqueu el número de la ubicació del mapa,,,Penseu on podem trobar pescadors.,,,16,
-⛵ Plaça del Port,"Els pescadors surten de port al matí i hi tornen el mateix dia per vendre o registrar el peix a la confraria o al punt de primera venda. Tot i que la majoria de flota opera d'aquesta manera, algunes embarcacions, com les tonyineres, poden estar-se diversos dies a la mar.
+❗👣  CANVI DE LLOC,"Els pescadors surten de port al matí i hi tornen el mateix dia per vendre o registrar el peix a la confraria o al punt de primera venda. Tot i que la majoria de flota opera d'aquesta manera, algunes embarcacions, com les tonyineres, poden estar-se diversos dies a la mar.
 
 No continueu el joc fins haver arribat a la Plaça del Port.
 
@@ -83,6 +83,7 @@ El pescador em va donar unes petxines, em va dir que cerques a la seva amiga nat
 Les naturalistes eren unes intel·lectuals de l'època i es passaven el dia enfeinades amb els seus estudis, cercant informació sense aturar.
 
 On anem a cercar la naturalista?",number,Indiqueu el número de la ubicació del mapa,,,Cerqueu un lloc que alberga cultura.,Un lloc amb molts llibres.,,10,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,
 ℹ️ Biblioteca Museu Víctor Balaguer,"La Biblioteca Museu Víctor Balaguer, inaugurada el 26 d'octubre de 1884, va ser fundada per l'escriptor i polític que li dona nom. És un dels primers edificis a Catalunya construïts de nova planta amb la finalitat específica de mostrar col·leccions al públic i facilitar l'accés a la cultura.
 
 La col·lecció original estava formada pel conjunt de llibres i objectes artístics que el fundador havia aplegat al llarg de la seva vida, juntament amb nombroses donacions que van fer créixer el fons des del primer moment. L’edifici havia estat dissenyat pel mestre d’obres Jeroni Granell, que el va concebre com un temple clàssic, coronat per una cúpula central i amb dues ales simètriques destinades respectivament a Biblioteca i a Museu.
@@ -102,6 +103,7 @@ Quina peça de roba li ha donat la naturalista a la Capitana i acompanyants?",te
 «Ja hem canviat de vestuari. La naturalista diu que seguim el rastre de les petxines per continuar el nostre camí.»
 
 On anem?",number,Indiqueu el número de la ubicació del mapa,,,Fixeu-vos en el terra de les ubicacions del mapa.,Hi ha un mosaic característic amb colors blanc i negre al terra d'una plaça.,,13,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,
 ℹ️ Plaça de la Vila,"És el centre neuràlgic de Vilanova i la Geltrú, seu de l’Ajuntament i escenari de qualsevol acte cultural, festiu o polític de la ciutat. 
 
 Arreu de Catalunya trobareu molt pocs indrets que concentrin tanta influència indiana com aquesta plaça. De planta rectangular i envoltada d’arcades i palmeres ens trasllada de seguida a l’arquitectura colonial. Tant és així, que ha estat escenari de spots publicitaris de tot tipus on ha representat ser una plaça de qualsevol indret de l’Amèrica Central. 
@@ -138,6 +140,7 @@ La Capitana escrivia al seu quadern de bitàcola:
 «En el meu temps, quan necessitava saber l'hora, escoltava el so de les campanes.  A l'hivern feia més vent i costava més sentir-les. En qualsevol cas, les campanes marcaven la següent etapa del viatge.» 
 
 On anem?",number,Indiqueu el número de la ubicació del mapa,,,Hi ha edificis que tenen un campanar.,Edificis religiosos.,,2,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,
 ⏳ Viatge en el temps,La torre del campanar va ser construïda entre 1670 i 1706 i l'església entre 1790 i 1879. On anem exactament?,select,Trieu una opció del deplegable,,Campanar|Esglèsia,Recordeu que la nostra història suceeix en 1786.,,,Campanar,
 ℹ️ L'àngel,"El campanar, d'estil barroc, està compost per tres cossos coronats per una cúpula i la figura d'un àngel. És l’únic element que s’ha conservat de la vella església gòtica, enderrocada el 1790. La seva construcció es coronà amb la figura monumental d’un àngel que durant la Guerra Civil es fongué per fer bales de canó. L’any 1996 fou col·locada una rèplica.
 
@@ -162,6 +165,7 @@ On va passar la nit la Capitana?",select,Trieu una opció del deplegable,,Casa p
 «M'he despertat i el primer que m'ha vingut al cap és que necessitarem provisions per continuar el viatge de tornada amb el Rebentat de Tramuntana. Més val que encarregui tot el necessari. Espero que no hi hagi manca d'existències arran de la celebració de la revetlla.»
 
 On anem?",number,Indiqueu el número de la ubicació del mapa,,,No podia anar al mercat que avui coneixem perquè encara no existia.,A la vila hi havia un indret on les pageses venien els seus productes.,,8,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,
 ℹ️ Plaça de les Cols,"Formada a principis del segle XVIII. El nom li ve donat pel fet que l'any 1732 s'hi traslladaren les pageses que venien verdures, procedents de la Plaça Nova (a l'actual carrer Sant Pere). El mercat de verdures es va mantenir durant tot el segle XIX fins la inauguració del Mercat nou. Entre 1939 i 1978 va dur el nom de plaça d'Espanya. Compta amb diversos edificis d'interès històric i conforma un espai urbà de gran interès.
 
 Font: Guia de Patrimoni Històric i Artístic de Municpis Catalans (https://www.poblesdecatalunya.cat/element.php?e=811)",,,,,,,,,
@@ -196,6 +200,7 @@ Quina era la paraula secreta?",text,,4,,Heu provat d'utilitzar alguna dada desco
 «Curiosament, tenia el meu tresor a una cova fins que, a dia d'avui, a la llum de la Lluna, vaig moure'l de lloc. Vam saludar a un infant de camí al nou amagatall i vam arribar al destí.».
 
 On anem?",number,Indiqueu el número de la ubicació del mapa,,,Hi ha algun lloc d'interès que podeu associar a un infant.,"Si sou d'aquí, el carrer de la Lluna marca el camí.",,5,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,
 ℹ️ Castell de la Geltrú,"L'origen de Vilanova i la Geltrú és el poble de la Geltrú, documentat al s.X, passejar-hi és fer un al salt en el temps i potser en l'espai. Sentiràs l'encant dels racons pintorescos, els carrers desèrtics i les places acollidores. 
 
 Sortim del primer recinte fortificat de Vilanova, el Pont del Nin, en direcció a la plaça del Pou per endinsar-nos al nucli històric de La Geltrú. El carrer de la unió, per on passa el torrent de la Pastera, és la divisió física entre les antigues poblacions de Vilanova i La Geltrú. Des d'aquí no passa desapercebuda la Peixateria Vella, que situada al límit del nucli antic, va encabir el mercat del peix des de l'any 1858 fins a l'any 1941, quan es va obrir el Mercat del Centre.
@@ -253,7 +258,7 @@ Quadern de bitàcola:
 «Un sabre no és només una arma, sinó el símbol de qui ha arribat fins al final sense rendir-se.»
 
 La Capitana Rocanegra us reconeix com a dignes de trobar el seu tresor.",,,,,,,,,
-🏴‍☠️ Tresor,"Ja podeu obrir el candau i obtenir la vostra part del tresor. Un/a peça per persona o familla.
+🏴‍☠️ Tresor,"Ja podeu obrir el candau i obtenir la vostra part del tresor. Un/a peça per persona o familla. Quan tingueu la vostra part, torneu a deixar els candaus com estaven pel següent equip si us plau.
 
 La resta del botí se'l va tornar a endur la Capitana Rocanegra i no sé sap on va anar a parar... La llegenda diu que va retornar-ho a la mateixa cova on l'havia amagat inicialment. 
 
