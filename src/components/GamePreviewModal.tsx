@@ -73,13 +73,18 @@ export function GamePreviewModal({
         {/* HEADER */}
         {/* ======================================================= */}
 
-        <div className="px-6 py-4">
+        <div className="px-6 py-4 flex items-center gap-4">
           <h2
             id="game-preview-title"
-            className="text-2xl font-bold"
+            className="text-2xl font-bold grow min-w-0"
           >
             {game.title}
           </h2>
+          {game.language && (
+          <div className="shrink-0">
+            🌐 {game.language}
+          </div>
+          )}
         </div>
 
         {/* ======================================================= */}

@@ -85,6 +85,7 @@ export class GameParserService {
     return {
       title: metadata.title,
       description: metadata.description,
+      language: metadata.language || undefined,
       durationMinutes: Number(
         metadata.durationMinutes
       ),

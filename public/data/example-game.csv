@@ -1,6 +1,6 @@
 METADATA,,,,,,,,,,
-title,description,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
-Escape Game Demo,Joc de prova,15,45,1.1,Escape Game Engine,CC BY-NC-SA 4.0,,,,
+title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,
+Escape Game Demo,Joc de prova,Català,15,45,1.3,Escape Game Engine,CC BY-NC-SA 4.0,,,
 ,,,,,,,,,,
 PAGES,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds

@@ -14,5 +14,6 @@ export interface EscapeGame {
   version: string;
   author: string;
   license?: string;
+  language?: string;
   pages: EscapeGamePage[];
 }

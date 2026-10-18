@@ -30,7 +30,8 @@ const GamePageSchema = z.object({
 
 export const EscapeGameSchema = z.object({
   title: z.string(),
-  description: z.string().optional(),
+  description: z.string(),
+  language: z.string().optional(),
   durationMinutes: z.number().positive(),
   defaultPenaltySeconds: z.number().positive(),
   version: z.string(),
