@@ -106,7 +106,7 @@ export class QuestionEngineService {
 
   private static evalText(question: Question, answer: string): QuestionEvaluationResult {
     const normalizedAnswer = this.normalizeText(String(answer ?? ""));
-    const expected = String(question.answer ?? "").trim();
+    const expected = String(question.regexAnswer ?? (question.answer ?? "")).trim();
 
     if (this.isRegexLiteral(expected)) {
 

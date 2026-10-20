@@ -176,6 +176,10 @@ export class GameParserService {
       question.hints = hints;
     }
 
+    if (row.regexAnswer?.trim()) {
+      question.regexAnswer = row.regexAnswer;
+    }
+
     return {
       title: row.title,
       content: row.content,

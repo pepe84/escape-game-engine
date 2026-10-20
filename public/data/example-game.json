@@ -25,19 +25,19 @@
     },
     {
       "title": "Text lliure",
-      "content": "A quina ciutat es celebra el festival Nowa Reggae?",
+      "content": "A quina ciutat es van celebrar els JJOO de 1992?",
       "question": {
         "type": "text",
         "formatHelp": "No té en compte minúscules / majúscules",
         "config": {
-          "length": 8
+          "length": 9
         },
         "hints": [
-          "És al Garraf",
-          "Comença per V",
-          "Acaba per -nova"
+          "És una ciutat de Catalunya",
+          "Comença per B",
+          "Acaba amb «ona»"
         ],
-        "answer": "Vilanova",
+        "answer": "Barcelona",
         "penaltySeconds": 30
       }
     },
@@ -47,7 +47,8 @@
       "question": {
         "type": "text",
         "formatHelp": "No té en compte minúscules / majúscules",
-        "answer": "/^(esquerra|dreta|ambdues|les dues)$/i"
+        "answer": "Ambdues",
+        "regexAnswer": "/^(esquerra|dreta|ambdues|les dues)$/i"
       }
     },
     {
@@ -56,7 +57,8 @@
       "question": {
         "type": "text",
         "formatHelp": "No té en compte minúscules / majúscules",
-        "answer": "/^((un|el) )?parasol$/i"
+        "answer": "Un parasol",
+        "regexAnswer": "/^((un|el) )?parasol$/i"
       }
     },
     {
@@ -122,11 +124,11 @@
     },    
     {
       "title": "Data històrica",
-      "content": "Quin dia històric commemora la Diada de Catalunya?",
+      "content": "Quin dia va iniciar-se la Revolució Francesa amb la presa de la Bastilla?",
       "question": {
         "type": "date",
         "formatHelp": "El format de data depen del navegador",
-        "answer": "11-09-1714"
+        "answer": "14-07-1789"
       }
     },
     {

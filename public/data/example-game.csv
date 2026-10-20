@@ -1,18 +1,18 @@
-METADATA,,,,,,,,,,
-title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,
-Escape Game Demo,Joc de prova,Català,15,45,1.3,Escape Game Engine,CC BY-NC-SA 4.0,,,
-,,,,,,,,,,
-PAGES,,,,,,,,,,
-title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,penaltySeconds
-Benvinguts,Comença l'aventura,,,,,,,,,
-Número,Comencem pel principi!,number,,,,Quin és el primer número?,,,1,
-Text lliure,A quina ciutat es celebra el festival Nowa Reggae?,text,No té en compte minúscules / majúscules,8,,És al Garraf,Comença per V,Acaba per -nova,Vilanova,30
-Text lliure amb expressió regular (regex),Amb quina mà podem tocar la guitarra?,text,No té en compte minúscules / majúscules,,,,,,/^(esquerra|dreta|ambdues|les dues)$/i
-Text lliure amb expressió regular (regex),Què utilitzem per fer ombra a la platja?,text,No té en compte minúscules / majúscules,,,,,,/^((un|el) )?parasol$/i
-Codi numèric,El gran germà et vigila...,code,,4,,Llibre de ciencia ficció,,,1984,15
-Codi lletres,Salutacions des de Hawai!,code-alpha,,5,,,,,ALOHA,
-Codi alfanumèric,Un robot famós de Star Wars?,code-alphanumeric,,3,,,,,R2D2,
-Escull una opció,Quin color podem veure amunt i avall?,select,,,Blau|Vermell|Verd|Groc,Què veus si mires amunt i avall mentre et banyes?,Pensa en una obra de teatre,,Blau,
-Mar i cel,El blau del mar i del cel!,,,,,,,,,
-Data històrica,Quin dia històric commemora la Diada de Catalunya?,date,El format de data depen del navegador,,,,,,11-09-1714,
-Final,Heu completat el joc,,,,,,,,,
+METADATA,,,,,,,,,,,
+title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
+Escape Game Demo,Joc de prova,Català,15,45,1.3,Escape Game Engine,CC BY-NC-SA 4.0,,,,
+,,,,,,,,,,,
+PAGES,,,,,,,,,,,
+title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,regexAnswer,penaltySeconds
+Benvinguts,Comença l'aventura,,,,,,,,,,
+Número,Comencem pel principi!,number,,,,Quin és el primer número?,,,1,,
+Text lliure,A quina ciutat es van celebrar els JJOO de 1992?,text,No té en compte minúscules / majúscules,9,,És una ciutat de Catalunya,Comença per B,Acaba amb «ona»,Barcelona,,30
+Text lliure amb expressió regular (regex),Amb quina mà podem tocar la guitarra?,text,No té en compte minúscules / majúscules,,,,,,Amdbues,/^(esquerra|dreta|ambdues|les dues)$/i,
+Text lliure amb expressió regular (regex),Què utilitzem per fer ombra a la platja?,text,No té en compte minúscules / majúscules,,,,,,Un parasol,/^((un|el) )?parasol$/i,
+Codi numèric,El gran germà et vigila...,code,,4,,Llibre de ciencia ficció,,,1984,,15
+Codi lletres,Salutacions des de Hawai!,code-alpha,,5,,,,,ALOHA,,
+Codi alfanumèric,Un robot famós de Star Wars?,code-alphanumeric,,3,,,,,R2D2,,
+Escull una opció,Quin color podem veure amunt i avall?,select,,,Blau|Vermell|Verd|Groc,Què veus si mires amunt i avall mentre et banyes?,Pensa en una obra de teatre,,Blau,,
+Mar i cel,El blau del mar i del cel!,,,,,,,,,,
+Data històrica,Quin dia va iniciar-se la Revolució Francesa amb la presa de la Bastilla?,date,El format de data depen del navegador,,,,,,14-07-1789,,
+Final,Heu completat el joc,,,,,,,,,,

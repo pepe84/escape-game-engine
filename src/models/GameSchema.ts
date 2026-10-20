@@ -16,6 +16,7 @@ export type QuestionType = z.infer<typeof QuestionTypeSchema>;
 const QuestionSchema = z.object({
   type: QuestionTypeSchema,
   answer: z.string(),
+  regexAnswer: z.string().optional(),
   hints: z.array(z.string()).optional(),
   penaltySeconds: z.number().optional(),
   formatHelp: z.string().optional(),
