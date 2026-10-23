@@ -6,6 +6,7 @@ import { useTranslation, Trans } from "react-i18next";
 import type { ZodIssue } from "zod";
 import type { EscapeGame } from "../models/EscapeGame";
 import { GamePreviewModal } from "../components/GamePreviewModal";
+import { History } from "lucide-react";
 
 export function HomePage() {
   const { t } = useTranslation();
@@ -384,6 +385,40 @@ export function HomePage() {
         </div>
         
       </div>
+
+      {/* ========================================================= */}
+      {/* HISTÒRIC DE PARTIDES */}
+      {/* ========================================================= */}
+
+      <section className="bg-white rounded-lg shadow p-4 mt-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+
+          <div className="flex items-start gap-3">
+            <div className="bg-amber-100 text-amber-700 rounded-xl p-3">
+              <History size={24} />
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold">
+                {t("historyPage.title")}
+              </h2>
+
+              <p className="text-gray-500 mt-2">
+                {t("historyPage.description")}
+              </p>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => navigate("/history")}
+            className="w-full sm:w-auto bg-amber-500 hover:bg-amber-600 text-white py-3 px-6 rounded-xl cursor-pointer"
+          >
+            {t("historyPage.viewHistoryBtn")}
+          </button>
+
+        </div>
+      </section>
 
       {/* ERROR */}
 

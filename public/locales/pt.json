@@ -87,5 +87,32 @@
       "points": "pontos"
     },
     "history": "Histórico"
-  }
+  },
+  "historyPage": {
+    "title": "Histórico de jogos",
+    "description": "Consulta os jogos realizados neste dispositivo.",
+    "viewHistoryBtn": "Ver jogos realizados",
+    "empty": "Ainda não foi registado nenhum jogo.",
+    "clear": "Apagar histórico",
+    "clearConfirm": "Tens a certeza de que queres apagar todo o histórico de jogos?",
+    "delete": "Apagar jogo",
+    "points": "pontos",
+    "table": {
+      "date": "Data e hora",
+      "game": "Jogo",
+      "team": "Equipa",
+      "duration": "Duração",
+      "score": "Pontuação",
+      "actions": "Ações"
+    },
+    "sort": {
+      "newest": "Mais recentes primeiro",
+      "oldest": "Mais antigos primeiro"
+    }
+  },
+  "pwa": {
+    "offlineReady": "A aplicação já pode ser utilizada sem ligação à Internet.",
+    "updateAvailable": "Está disponível uma nova versão.",
+    "update": "Atualizar"
+  }  
 }

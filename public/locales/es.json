@@ -88,6 +88,28 @@
     },
     "history": "Historial"
   },
+  "historyPage": {
+    "title": "Historial de partidas",
+    "description": "Consulta las partidas jugadas en este dispositivo.",
+    "viewHistoryBtn": "Ver partidas jugadas",
+    "empty": "Todavía no hay ninguna partida registrada.",
+    "clear": "Borrar historial",
+    "clearConfirm": "¿Seguro que quieres borrar todo el historial de partidas?",
+    "delete": "Borrar partida",
+    "points": "puntos",
+    "table": {
+      "date": "Fecha y hora",
+      "game": "Juego",
+      "team": "Equipo",
+      "duration": "Duración",
+      "score": "Puntuación",
+      "actions": "Acciones"
+    },
+    "sort": {
+      "newest": "Más recientes primero",
+      "oldest": "Más antiguas primero"
+    }
+  },  
   "pwa": {
     "offlineReady": "La aplicación ya puede utilizarse sin conexión.",
     "updateAvailable": "Hay una nueva versión disponible.",

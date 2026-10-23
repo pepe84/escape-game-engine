@@ -104,9 +104,8 @@ export class SummaryService {
     const hints = this.getHintsUsed(state);
     const solutions = this.getSolutionsViewed(state);
     const penaltySeconds = this.getPenaltySeconds(state);
-    const usedSeconds = GameClockService.formatSeconds(
-      this.getUsedSeconds(game,state)
-    );    
+    const usedSeconds = this.getUsedSeconds(game,state);
+    const elapsedTime = GameClockService.formatSeconds(usedSeconds);
     const score = this.getScore(game, state);
     const gameCompleted = this.isGameCompleted(game, state);
     
@@ -119,6 +118,7 @@ export class SummaryService {
       solutions,
       penaltySeconds,
       usedSeconds,
+      elapsedTime,
       score,
       gameCompleted
     };

@@ -88,6 +88,28 @@
       },
       "history": "Historial"
   },
+  "historyPage": {
+    "title": "Històric de partides",
+    "description": "Consulta les partides jugades en aquest dispositiu.",
+    "viewHistoryBtn": "Veure partides jugades",
+    "empty": "Encara no hi ha cap partida registrada.",
+    "clear": "Esborrar històric",
+    "clearConfirm": "Segur que vols esborrar tot l'històric de partides?",
+    "delete": "Esborrar partida",
+    "points": "punts",
+    "table": {
+      "date": "Data i hora",
+      "game": "Joc",
+      "team": "Equip",
+      "duration": "Durada",
+      "score": "Puntuació",
+      "actions": "Accions"
+    },
+    "sort": {
+      "newest": "Més recents primer",
+      "oldest": "Més antigues primer"
+    }
+  },
   "pwa": {
     "offlineReady": "L'aplicació ja es pot utilitzar sense connexió.",
     "updateAvailable": "Hi ha disponible una nova versió.",

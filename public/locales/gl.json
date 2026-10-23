@@ -87,5 +87,32 @@
       "points": "puntos"
     },
     "history": "Historial"
+  },
+  "historyPage": {
+    "title": "Historial de partidas",
+    "description": "Consulta as partidas xogadas neste dispositivo.",
+    "viewHistoryBtn": "Ver partidas xogadas",
+    "empty": "Aínda non hai ningunha partida rexistrada.",
+    "clear": "Borrar historial",
+    "clearConfirm": "Tes a certeza de que queres borrar todo o historial de partidas?",
+    "delete": "Borrar partida",
+    "points": "puntos",
+    "table": {
+      "date": "Data e hora",
+      "game": "Xogo",
+      "team": "Equipo",
+      "duration": "Duración",
+      "score": "Puntuación",
+      "actions": "Accións"
+    },
+    "sort": {
+      "newest": "As máis recentes primeiro",
+      "oldest": "As máis antigas primeiro"
+    }
+  },
+  "pwa": {
+    "offlineReady": "A aplicación xa se pode utilizar sen conexión.",
+    "updateAvailable": "Hai unha nova versión dispoñible.",
+    "update": "Actualizar"
   }
 }

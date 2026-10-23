@@ -16,7 +16,7 @@ export function Header() {
     if (!ok) return;
 
     reset();
-    StorageService.clear();
+    StorageService.clearGame();
     navigate("/");
   };
 

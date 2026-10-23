@@ -87,5 +87,32 @@
       "points": "points"
     },
     "history": "Historique"
+  },
+  "historyPage": {
+    "title": "Historique des parties",
+    "description": "Consultez les parties jouées sur cet appareil.",
+    "viewHistoryBtn": "Voir les parties jouées",
+    "empty": "Aucune partie n'a encore été enregistrée.",
+    "clear": "Effacer l'historique",
+    "clearConfirm": "Voulez-vous vraiment effacer tout l'historique des parties ?",
+    "delete": "Supprimer la partie",
+    "points": "points",
+    "table": {
+      "date": "Date et heure",
+      "game": "Jeu",
+      "team": "Équipe",
+      "duration": "Durée",
+      "score": "Score",
+      "actions": "Actions"
+    },
+    "sort": {
+      "newest": "Les plus récentes d'abord",
+      "oldest": "Les plus anciennes d'abord"
+    }
+  },
+  "pwa": {
+    "offlineReady": "L’application est prête à être utilisée hors ligne.",
+    "updateAvailable": "Une nouvelle version est disponible.",
+    "update": "Mettre à jour"
   }
 }

@@ -11,6 +11,7 @@ import { HintsModal } from "../components/HintsModal";
 import { CircleCheckBig, Lightbulb } from "lucide-react";
 import type { GameState } from "../models/GameState";
 import { useTranslation } from "react-i18next";
+import { SummaryService } from "../services/SummaryService";
 
 export function GamePage() {
   const { t } = useTranslation();
@@ -73,7 +74,18 @@ export function GamePage() {
     setState(nextState);
     StorageService.saveState(nextState);
     if (nextState.finished) {
-      navigate("/summary");
+      const summary = SummaryService.build(game, nextState);
+      StorageService.addHistoryEntry({
+        id: nextState.id,
+        gameTitle: game.title,
+        teamName: nextState.teamName,
+        startedAt: nextState.startedAt,
+        finishedAt: nextState.finishedAt ?? "",
+        score: summary.score
+      });
+      navigate("/summary", {
+        state: { summary }
+      });
     }
   };
 

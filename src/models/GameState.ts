@@ -1,6 +1,7 @@
 import type { GameEvent } from "./GameEvent";
 
 export interface GameState {
+  id: string;
   teamName: string;
   startedAt: string;
   currentPageIndex: number;

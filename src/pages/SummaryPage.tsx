@@ -3,6 +3,7 @@ import type { GameEvent } from "../models/GameEvent";
 import { GameEventType } from "../models/GameEventType";
 import { SummaryService } from "../services/SummaryService";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 export function SummaryPage() {
   const { t } = useTranslation();
@@ -16,8 +17,10 @@ export function SummaryPage() {
     );
   }
 
-  const summary = SummaryService.build(game, state);
-
+  const location = useLocation();
+  const summary = location.state?.summary
+    ?? SummaryService.build(game, state);
+  
   const describeEvent = (event: GameEvent) => {
 
     switch (event.type) {
@@ -75,7 +78,7 @@ export function SummaryPage() {
             {t("summaryPage.statistics.usedSeconds")}            
           </div>
           <div className="text-2xl font-bold">
-            {summary.usedSeconds}
+            {summary.elapsedTime}
           </div>
         </div>
         <div className="bg-white rounded-lg shadow p-4">

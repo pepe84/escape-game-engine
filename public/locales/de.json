@@ -87,5 +87,32 @@
       "points": "Punkte"
     },
     "history": "Verlauf"
+  },
+  "historyPage": {
+    "title": "Spielverlauf",
+    "description": "Sieh dir die auf diesem Gerät gespielten Partien an.",
+    "viewHistoryBtn": "Gespielte Partien anzeigen",
+    "empty": "Es wurden noch keine Partien gespeichert.",
+    "clear": "Verlauf löschen",
+    "clearConfirm": "Möchtest du wirklich den gesamten Spielverlauf löschen?",
+    "delete": "Partie löschen",
+    "points": "Punkte",
+    "table": {
+      "date": "Datum und Uhrzeit",
+      "game": "Spiel",
+      "team": "Team",
+      "duration": "Dauer",
+      "score": "Punktzahl",
+      "actions": "Aktionen"
+    },
+    "sort": {
+      "newest": "Neueste zuerst",
+      "oldest": "Älteste zuerst"
+    }
+  },
+  "pwa": {
+    "offlineReady": "Die Anwendung kann jetzt offline verwendet werden.",
+    "updateAvailable": "Eine neue Version ist verfügbar.",
+    "update": "Aktualisieren"
   }
 }

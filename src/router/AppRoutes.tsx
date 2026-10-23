@@ -7,6 +7,7 @@ import { HomePage } from "../pages/HomePage";
 import { StartGamePage } from "../pages/StartGamePage";
 import { GamePage } from "../pages/GamePage";
 import { SummaryPage } from "../pages/SummaryPage";
+import { HistoryPage } from "../pages/HistoryPage";
 
 export function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export function AppRoutes() {
       <Route path="/start" element={<StartGamePage />} />
       <Route path="/game" element={<GamePage />} />
       <Route path="/summary" element={<SummaryPage />} />
+      <Route path="/history" element={<HistoryPage />} />
     </Routes>
   );
 }

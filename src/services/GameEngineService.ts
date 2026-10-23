@@ -9,6 +9,7 @@ export class GameEngineService {
   static factory(teamName: string): GameState {
 
     const state: GameState = {
+      id: crypto.randomUUID(),
       teamName,
       startedAt: new Date().toISOString(),
       currentPageIndex: 0,
