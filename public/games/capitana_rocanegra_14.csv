@@ -1,6 +1,8 @@
 METADATA,,,,,,,,,,,
 title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
-La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú. Requereix mapa imprès.
+La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú amb punt d'inici a l'Oficina de Turisme del Passeig Marítim. 
+
+Atenció! Requereix mapa del joc imprès.
 
 Agraïments a Paula i Sandra per les seves aportacions a la versió inicial del joc.",Català,150,30,1.4,Pep Castelltort,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,,
@@ -13,7 +15,7 @@ La Capitana Rocanegra era una pirata que operava entre el Garraf i Mallorca. Els
 Quan va saber que la Marina Reial la perseguia, va desembarcar secretament a Vilanova i va amagar el seu tresor. Però no va deixar la ubicació exacta.
 
 Només un mapa i un quadern de bitàcola.",,,,,,,,,,
-🗺️ Mapa,"Confirmeu que teniu el mapa ABANS de continuar.
+🗺️ Mapa,"ABANS de continuar, confirmeu que teniu el mapa i dirigiu-vos al punt inicial (0).
 
 Les ubicacions del mapa no son 100% acurades i, durant el joc, podeu utilitzar el GPS del mòbil per orientar-vos i anar d'un lloc a un altre.
 
@@ -232,14 +234,14 @@ no sempre és un camí de roses i,
 si baixem la guàrdia, 
 podem convertir-nos en calaveres.»
 
-Quin és el codi numèric per alliberar el cofre?",code,Observeu bé el mapa.,4,,Cada línia de text representa un número del codi.,Un eclipsi requereix dos astres i les roses del vent també són roses.,Les torres de guaita son llocs on fer una guàrdia.,4345,,
-🔓 4345,"4 astres: Hi ha un sol, una lluna i un eclipsi (sol i lluna alhora)
+Quin és el codi numèric per alliberar el cofre?",code,Observeu bé el mapa.,4,,Cada línia de text representa un número del codi.,Un eclipsi requereix dos astres i les roses del vent també són roses.,Les torres de guaita son llocs on fer guàrdia.,5345,,
+🔓 5345,"5 astres: Hi ha un astre central, un sol a SE, una lluna a NE i un eclipsi (sol i lluna alhora) a SO.
 
-3 roses: Hi ha una rosa del vent gran i dues petites.
+3 roses: Hi ha una rosa del vent gran i dues petites a NO i S.
 
-4 torres: Hi ha un total de quatre torres de guaita.
+4 torres: Hi ha un total de quatre torres de guaita on fer guàrdia.
 
-5 calaveres: Hi ha una al títol del mapa i quatre a banderes pirates (al vaixell, al castell, a una torre i a un mercat)",,,,,,,,,,
+5 calaveres: Hi ha una al títol del mapa, una al segell de la llegenda de llocs, un esquelet a prop del far i dues banderes pirates (al vaixell i a la casa on va dormir la capitana).",,,,,,,,,,
 ❓ Segon codi,"Quadern de bitàcola:
 
 «Heu arribat fins aquí i heu descobert els secrets que vaig deixar amagats per tota la vila.
