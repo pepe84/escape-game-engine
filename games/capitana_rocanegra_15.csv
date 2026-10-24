@@ -4,7 +4,7 @@ La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la G
 
 Atenció! Requereix mapa del joc imprès.
 
-Agraïments a Paula i Sandra per les seves aportacions a la versió inicial del joc.",Català,150,30,1.4,Pep Castelltort,CC BY-NC-SA 4.0,,,,
+Agraïments a Paula i Sandra per les seves aportacions a la versió inicial del joc.",Català,150,30,1.5,Pep Castelltort,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,,
 PAGES,,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,regexAnswer,penaltySeconds
@@ -15,7 +15,7 @@ La Capitana Rocanegra era una pirata que operava entre el Garraf i Mallorca. Els
 Quan va saber que la Marina Reial la perseguia, va desembarcar secretament a Vilanova i va amagar el seu tresor. Però no va deixar la ubicació exacta.
 
 Només un mapa i un quadern de bitàcola.",,,,,,,,,,
-🗺️ Mapa,"ABANS de continuar, confirmeu que teniu el mapa i dirigiu-vos al punt inicial (0).
+🗺️ Mapa,"ABANS de continuar, confirmeu que teniu el mapa i ubiqueu el punt d'inici al mapa (0). L'aventura comença a l'Oficina de Turisme del Passeig Marítim.
 
 Les ubicacions del mapa no son 100% acurades i, durant el joc, podeu utilitzar el GPS del mòbil per orientar-vos i anar d'un lloc a un altre.
 
@@ -33,10 +33,15 @@ La meva tripulació i jo hem arribat a la badia de Vilanova al capvespre i hem f
 
 Ja s'ha fet fosc i hem salpat amb el bot de rems rumb a la costa. Durant el trajecte, ens hem creuat amb un ésser inesperat...»
 
-Quin ésser es va creuar en el camí de la nostra Capitana?",text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,Va ser un animal marí.,Apareix una de color blanc en una novela clàssica.,La novela clàssica és Moby Dick.,Una balena,/^((la|una) )?balena$/i,
-🐋 La balena,"Efectivament, es va creuar amb una balena. Actualment, podem trobar una escultura de balena a la Plaça Trajo del Garbí ubicada gairebé al final de l'espigó que toca la Platja de Ribes Roges.
+Quin ésser es va creuar en el camí de la nostra Capitana?",text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,És un animal marí.,Apareix una de color blanc en una novela clàssica.,La novela clàssica és Moby Dick.,Una balena,/^((la|una) )?balena$/i,
+🐋 La balena,"Efectivament, es va creuar amb una balena. 
 
-Dirigiu-vos cap allà. Podreu aprofitar per remullar-vos si fa calor.",,,,,,,,,,
+La sirena estava massa a prop d'una torre de guaita com per haver optat per aquella ruta.",,,,,,,,,,
+❗👣  CANVI DE LLOC,"Actualment, podem trobar una escultura en forma de cua de balena a la Plaça del Trajo de Garbí ubicada gairebé al final de l'espigó que toca la Platja de Ribes Roges.
+
+Dirigiu-vos al punt 6 del mapa.
+
+No continueu el joc fins haver arribat a la nova ubicació.",,,,,,,,,,
 ℹ️ Plaça Trajo del Garbí,"El passeig elevat i la font ornamental són dos nous espais de referència per a  la ciutadania a la zona del Trajo Garbí que formem ja part de la identitat de Vilanova  i la Geltrú. 
 
 La font incorpora l'escultura d'una cua de balena per divulgar l'activitat de recerca i d'investigació que es fa a través del Projecte Rorqual amb els cetacis que visiten la costa del Garraf, i contribuir a conscienciar el ciutadà amb el medi ambient. 
@@ -53,7 +58,7 @@ Quadern de bitàcola:
 
 «Després de burlar la guàrdia, el mariner ha vist una altra patrulla a la platja i la oficial ha suggerit prendre una ruta alternativa. Finalment, hem aconseguit tocar terra sense ser detectats, deixant el bot ancorat.»
 
-On va desembarcar la Capitana?",number,Indiqueu el número de la ubicació del mapa,,,Cerqueu una àncora al mapa.,No surt a la llegenda de llocs d'interès.,,20,,
+On va desembarcar la Capitana?",number,Indiqueu el número de la ubicació del mapa,,,Cerqueu una àncora al mapa.,No surt a la llegenda de llocs d'interès.,,22,,
 ⚓ Àncora,"Dirigiu-vos al momument amb una àncora ubicat al Passeig Marítim que està a la rotonda que connecta amb la zona del Trajo Garbí on esteu ara mateix. 
 
 No continueu el joc fins haver-hi arribat.",,,,,,,,,,
@@ -63,11 +68,7 @@ No continueu el joc fins haver-hi arribat.",,,,,,,,,,
 «Coneixia un pescador local que ens ajudaria un cop a terra.»
 
 On trobarem el nostre contacte local?",number,Indiqueu el número de la ubicació del mapa,,,Penseu on podem trobar pescadors.,,,16,,
-❗👣  CANVI DE LLOC,"Els pescadors surten de port al matí i hi tornen el mateix dia per vendre o registrar el peix a la confraria o al punt de primera venda. Tot i que la majoria de flota opera d'aquesta manera, algunes embarcacions, com les tonyineres, poden estar-se diversos dies a la mar.
-
-No continueu el joc fins haver arribat a la Plaça del Port.
-
-A partir d'ara, cada cop que trobeu una nova ubicació on anar, no contineu fins haver-hi arribat.",,,,,,,,,,
+❗👣  CANVI DE LLOC,No continueu el joc fins haver arribat a la nova ubicació.,,,,,,,,,,
 ℹ️ Plaça del Port,"La plaça, inaugurada el juny de 2018, és resultat de l’obertura del port a la ciutat, tot comportant l’eliminació de la tanca que havia delimitat les dependències portuàries, i d’un procés d’urbanització per integrar-la al conjunt de la façana marítima. L’any 2014 es va celebrar un procés de participació ciutadana que va culminar amb un concurs d’idees, per definir col·lectivament l’aspecte de la plaça.
 
 Font: Ajuntament de VNG (https://www.vilanova.cat/directori/detall?id=36244)",,,,,,,,,,
