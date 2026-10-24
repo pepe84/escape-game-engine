@@ -87,5 +87,32 @@
       "points": "punti"
     },
     "history": "Storico"
-  }
+  },
+  "historyPage": {
+    "title": "Cronologia delle partite",
+    "description": "Consulta le partite giocate su questo dispositivo.",
+    "viewHistoryBtn": "Visualizza le partite giocate",
+    "empty": "Non è ancora stata registrata alcuna partita.",
+    "clear": "Cancella cronologia",
+    "clearConfirm": "Sei sicuro di voler cancellare tutta la cronologia delle partite?",
+    "delete": "Elimina partita",
+    "points": "punti",
+    "table": {
+      "date": "Data e ora",
+      "game": "Gioco",
+      "team": "Squadra",
+      "duration": "Durata",
+      "score": "Punteggio",
+      "actions": "Azioni"
+    },
+    "sort": {
+      "newest": "Prima le più recenti",
+      "oldest": "Prima le più vecchie"
+    }
+  },
+  "pwa": {
+    "offlineReady": "L'applicazione è pronta per essere utilizzata offline.",
+    "updateAvailable": "È disponibile una nuova versione.",
+    "update": "Aggiorna"
+  }  
 }

@@ -87,5 +87,32 @@
       "points": "puntuak"
     },
     "history": "Historia"
-  }
+  },
+  "historyPage": {
+    "title": "Partiden historia",
+    "description": "Kontsultatu gailu honetan jokatutako partidak.",
+    "viewHistoryBtn": "Jokatutako partidak ikusi",
+    "empty": "Oraindik ez dago erregistratutako partidarik.",
+    "clear": "Garbitu historia",
+    "clearConfirm": "Ziur partida-historia osoa ezabatu nahi duzula?",
+    "delete": "Ezabatu partida",
+    "points": "puntu",
+    "table": {
+      "date": "Data eta ordua",
+      "game": "Jokoa",
+      "team": "Taldea",
+      "duration": "Iraupena",
+      "score": "Puntuazioa",
+      "actions": "Ekintzak"
+    },
+    "sort": {
+      "newest": "Berrienak lehenik",
+      "oldest": "Zaharrenak lehenik"
+    }
+  },
+  "pwa": {
+    "offlineReady": "Aplikazioa konexiorik gabe erabiltzeko prest dago.",
+    "updateAvailable": "Bertsio berri bat dago eskuragarri.",
+    "update": "Eguneratu"
+  }  
 }

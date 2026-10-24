@@ -87,5 +87,32 @@
       "points": "分数"
     },
     "history": "历史记录"
-  }
+  },
+  "historyPage": {
+    "title": "游戏记录",
+    "description": "查看此设备上进行过的游戏。",
+    "viewHistoryBtn": "查看已进行的游戏",
+    "empty": "尚未记录任何游戏。",
+    "clear": "清除历史记录",
+    "clearConfirm": "确定要清除所有游戏记录吗？",
+    "delete": "删除游戏记录",
+    "points": "分",
+    "table": {
+      "date": "日期和时间",
+      "game": "游戏",
+      "team": "队伍",
+      "duration": "时长",
+      "score": "得分",
+      "actions": "操作"
+    },
+    "sort": {
+      "newest": "最新的排在前面",
+      "oldest": "最早的排在前面"
+    }
+  },
+  "pwa": {
+    "offlineReady": "应用已准备就绪，可以离线使用。",
+    "updateAvailable": "有新版本可用。",
+    "update": "更新"
+  }  
 }

@@ -88,6 +88,28 @@
     },
     "history": "History"
   },
+  "historyPage": {
+    "title": "Game History",
+    "description": "View the games played on this device.",
+    "viewHistoryBtn": "View played games",
+    "empty": "No games have been recorded yet.",
+    "clear": "Clear history",
+    "clearConfirm": "Are you sure you want to clear the entire game history?",
+    "delete": "Delete game",
+    "points": "points",
+    "table": {
+      "date": "Date and time",
+      "game": "Game",
+      "team": "Team",
+      "duration": "Duration",
+      "score": "Score",
+      "actions": "Actions"
+    },
+    "sort": {
+      "newest": "Newest first",
+      "oldest": "Oldest first"
+    }
+  },  
   "pwa": {
     "offlineReady": "The app is now available offline.",
     "updateAvailable": "A new version is available.",

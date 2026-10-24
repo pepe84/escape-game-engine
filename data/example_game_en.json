@@ -1,0 +1,139 @@
+{
+  "title": "Escape Game Demo",
+  "description": "Demo game",
+  "language": "English",
+  "durationMinutes": 15,
+  "defaultPenaltySeconds": 45,
+  "version": "1.4",
+  "author": "Escape Game Engine",
+  "license": "CC BY-NC-SA 4.0",
+  "pages": [
+    {
+      "title": "Welcome",
+      "content": "The adventure begins"
+    },
+    {
+      "title": "Number",
+      "content": "Let's start at the beginning!",
+      "question": {
+        "type": "number",
+        "hints": [
+          "What is the first number?"
+        ],
+        "answer": "1"
+      }
+    },
+    {
+      "title": "Free text",
+      "content": "In which city were the 1992 Summer Olympics held?",
+      "question": {
+        "type": "text",
+        "formatHelp": "Uppercase and lowercase letters are treated the same",
+        "config": {
+          "length": 9
+        },
+        "hints": [
+          "It's a city in Catalonia",
+          "It starts with B",
+          "It ends with “ona”"
+        ],
+        "answer": "Barcelona",
+        "penaltySeconds": 30
+      }
+    },
+    {
+      "title": "Free text with regular expression (regex)",
+      "content": "Which hand can we use to play the guitar?",
+      "question": {
+        "type": "text",
+        "formatHelp": "Uppercase and lowercase letters are treated the same",
+        "answer": "Both",
+        "regexAnswer": "/^(left|right|both|both hands)$/i"
+      }
+    },
+    {
+      "title": "Free text with regular expression (regex)",
+      "content": "What do we use to get shade at the beach?",
+      "question": {
+        "type": "text",
+        "formatHelp": "Uppercase and lowercase letters are treated the same",
+        "answer": "A beach umbrella",
+        "regexAnswer": "/^((a|the) )?(beach )?umbrella$|^parasol$/i"
+      }
+    },
+    {
+      "title": "Numeric code",
+      "content": "Big Brother is watching you...",
+      "question": {
+        "type": "code",
+        "config": {
+          "length": 4
+        },
+        "hints": [
+          "A science-fiction novel"
+        ],
+        "answer": "1984",
+        "penaltySeconds": 15
+      }
+    },
+    {
+      "title": "Letter code",
+      "content": "Greetings from Hawaii!",
+      "question": {
+        "type": "code-alpha",
+        "config": {
+          "length": 5
+        },
+        "answer": "ALOHA"
+      }
+    },
+    {
+      "title": "Alphanumeric code",
+      "content": "A famous Star Wars robot?",
+      "question": {
+        "type": "code-alphanumeric",
+        "config": {
+          "length": 4
+        },
+        "answer": "R2D2"
+      }
+    },
+    {
+      "title": "Choose an option",
+      "content": "Which color can we see above and below?",
+      "question": {
+        "type": "select",
+        "config": {
+          "options": [
+            "Blue",
+            "Red",
+            "Green",
+            "Yellow"
+          ]
+        },
+        "hints": [
+          "What do you see if you look up and down while swimming?",
+          "Think of a theatrical play"
+        ],
+        "answer": "Blue"
+      }
+    },
+    {
+      "title": "Sea and sky",
+      "content": "The blue of the sea and the sky!"
+    },
+    {
+      "title": "Historical date",
+      "content": "On what date did the French Revolution begin with the storming of the Bastille?",
+      "question": {
+        "type": "date",
+        "formatHelp": "The date format depends on the browser",
+        "answer": "14-07-1789"
+      }
+    },
+    {
+      "title": "Finish",
+      "content": "You have completed the game"
+    }
+  ]
+}

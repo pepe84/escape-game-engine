@@ -1,0 +1,18 @@
+﻿METADATA,,,,,,,,
+title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
+Escape Game Demo,Demo game,English,15,45,1.4,Escape Game Engine,CC BY-NC-SA 4.0,,,,
+
+PAGES,,,,,,,,,,,
+title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,regexAnswer,penaltySeconds
+Welcome,The adventure begins,,,,,,,,,,
+Number,Let's start at the beginning!,number,,,,What is the first number?,,,1,,
+Free text,In which city were the 1992 Summer Olympics held?,text,Uppercase and lowercase letters are treated the same,9,,It's a city in Catalonia,It starts with B,It ends with “ona”,Barcelona,,30
+Free text with regular expression (regex),Which hand can we use to play the guitar?,text,Uppercase and lowercase letters are treated the same,,,,,,Both,/^(left|right|both|both hands)$/i,
+Free text with regular expression (regex),What do we use to get shade at the beach?,text,Uppercase and lowercase letters are treated the same,,,,,,A beach umbrella,/^((a|the) )?(beach )?umbrella$|^parasol$/i,
+Numeric code,Big Brother is watching you...,code,,4,,A science-fiction novel,,,1984,,15
+Letter code,Greetings from Hawaii!,code-alpha,,5,,,,,ALOHA,,
+Alphanumeric code,A famous Star Wars robot?,code-alphanumeric,,4,,,,,R2D2,,
+Choose an option,Which color can we see above and below?,select,,,Blue|Red|Green|Yellow,What do you see if you look up and down while swimming?,Think of a theatrical play,,Blue,,
+Sea and sky,The blue of the sea and the sky!,,,,,,,,,,
+Historical date,On what date did the French Revolution begin with the storming of the Bastille?,date,The date format depends on the browser,,,,,,14-07-1789,,
+Finish,You have completed the game,,,,,,,,,,
