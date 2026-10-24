@@ -18,7 +18,7 @@ export type QuestionConfig =
 export interface Question {
   type: QuestionType;
   answer: string;
-  regexAnswer: string;
+  regexAnswer?: string;
   hints?: string[];
   penaltySeconds?: number;
   formatHelp?: string;
