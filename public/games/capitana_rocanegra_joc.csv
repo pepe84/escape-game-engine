@@ -36,7 +36,7 @@ Ja s'ha fet fosc i hem salpat amb el bot de rems rumb a la costa. Durant el traj
 Quin ésser es va creuar en el camí de la nostra Capitana?",text,"No cal posar articles a la resposta (un/a, el/la, etc).",,,És un animal marí.,Apareix una de color blanc en una novela clàssica.,La novela clàssica és Moby Dick.,Una balena,/^((la|una) )?balena$/i,
 🐋 La balena,"Efectivament, es va creuar amb una balena. 
 
-La sirena estava massa a prop d'una torre de guaita com per haver optat per aquella ruta.",,,,,,,,,,
+La sirena estava massa a prop d'una torre de guaita com per haver optat per aquell tram de costa.",,,,,,,,,,
 ❗👣  CANVI DE LLOC,"Actualment, podem trobar una escultura en forma de cua de balena a la Plaça del Trajo de Garbí ubicada gairebé al final de l'espigó que toca la Platja de Ribes Roges.
 
 Dirigiu-vos al punt 6 del mapa.
@@ -159,13 +159,21 @@ Quantes finestres d'arc de mig punt té la torre?",number,No compteu les dues fi
 ❗📝  PRENEU NOTA,"Heu comptat correctament el nombre de finestres d'arc de mig punt. Hi ha 8 en dos nivells diferents (una a una cara oculta). En total, 16. Apunteu aquest número que us pot fer servei més endavant.
 
 Podeu fer una captura de pantalla si no teniu paper i boli a mà.",,,,,,,,,,
-🏚️ Descans,"Quadern de bitàcola:
+💤 Descans,"Quadern de bitàcola:
 
 «Era tard i l'esgotament acumulat de carregar el tresor era notori. Vaig considerar convenient cercar repòs i seguir al dia següent.
 
-Entre els tres llocs que podia escollir, vaig triar aquell que tenia més coincidències amb una pirata com jo.»
+Entre els llocs que podia escollir, vaig triar aquell que tenia més coincidències amb una pirata com jo.»
 
 On va passar la nit la Capitana?",select,Trieu una opció del deplegable,,Casa particular|Fonda|Hostal|Posada|Taverna,La paraula pirata conté 6 lletres.,Cerqueu coincidències de lletres a les opcions.,,Casa particular,,
+🏚️ Casa particular,"La paraula ""pirata"" conté 6 lletres que també trobem a la paraula ""casa particular"". La resta de paraules tenen menys coincidències:
+
+- Fonda: 1 lletra (----a)
+- Hostal: 2 lletres (---ta-)
+- Posada: 3 lletres (p--a-a)
+- Taverna: 4 lletres (ta--r-a)
+
+Si observeu el mapa, just a sobre de la nostra ubicació actual, podreu identificar la casa on va estar allotjada la nostra capitana.",,,,,,,,,,
 🧺 Provisions,"Quadern de bitàcola:
 
 «M'he despertat i el primer que m'ha vingut al cap és que necessitarem provisions per continuar el viatge de tornada amb el Rebentat de Tramuntana. Més val que encarregui tot el necessari. Espero que no hi hagi manca d'existències arran de la celebració de la revetlla.»
@@ -232,7 +240,7 @@ Font: Guia de Patrimoni Històric i Artístic de Municpis Catalans (https://www.
 
 «Els astres indiquen el camí, 
 no sempre és un camí de roses i, 
-si baixem la guàrdia, 
+si abaixem la guàrdia, 
 podem convertir-nos en calaveres.»
 
 Quin és el codi numèric per alliberar el cofre?",code,Observeu bé el mapa.,4,,Cada línia de text representa un número del codi.,Un eclipsi requereix dos astres i les roses del vent també són roses.,Les torres de guaita son llocs on fer guàrdia.,5345,,
