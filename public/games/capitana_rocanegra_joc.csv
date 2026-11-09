@@ -1,10 +1,8 @@
 METADATA,,,,,,,,,,,
 title,description,language,durationMinutes,defaultPenaltySeconds,version,author,license,,,,
-La llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú amb punt d'inici a l'Oficina de Turisme del Passeig Marítim. 
+La Llegenda de la Capitana Rocanegra,"Cerca d'un tresor pirata a Vilanova i la Geltrú amb punt d'inici al Centre d'Atenció Turística del Passeig Marítim. 
 
-Atenció! Requereix mapa del joc imprès.
-
-Agraïments a Paula i Sandra per les seves aportacions a la versió inicial del joc.",Català,150,30,1.5,Pep Castelltort,CC BY-NC-SA 4.0,,,,
+Atenció! Requereix mapa del joc imprès.",Català,150,30,1.6,Pep Castelltort,CC BY-NC-SA 4.0,,,,
 ,,,,,,,,,,,
 PAGES,,,,,,,,,,,
 title,content,question,formatHelp,length,options,hint 1,hint 2,hint 3,answer,regexAnswer,penaltySeconds
@@ -15,7 +13,7 @@ La Capitana Rocanegra era una pirata que operava entre el Garraf i Mallorca. Els
 Quan va saber que la Marina Reial la perseguia, va desembarcar secretament a Vilanova i va amagar el seu tresor. Però no va deixar la ubicació exacta.
 
 Només un mapa i un quadern de bitàcola.",,,,,,,,,,
-🗺️ Mapa,"ABANS de continuar, confirmeu que teniu el mapa i ubiqueu el punt d'inici al mapa (0). L'aventura comença a l'Oficina de Turisme del Passeig Marítim.
+🗺️ Mapa,"ABANS de continuar, confirmeu que teniu el mapa i ubiqueu el punt d'inici al mapa (0). L'aventura comença al Centre d'Atenció Turística del Passeig Marítim.
 
 Les ubicacions del mapa no son 100% acurades i, durant el joc, podeu utilitzar el GPS del mòbil per orientar-vos i anar d'un lloc a un altre.
 
@@ -235,7 +233,9 @@ Qui observa el nou amagatall del tresor de la Capitana a data d'avui?",text,"No 
 ℹ️ Verger del Mestre Toldrà,"Eduard Toldrà (Vilanova i la Geltrú 1895 - 1962), va ser un notable compositor i músic, director de l'Orquestra Municipal de Barcelona a partir de 1944. L'any 1963, poc després de la seva mort, es va inaugurar aquest monument d'homenatge, amb un relleu en bronze amb el perfil del músic i l'escultura d'un querubí tocant l'arpa.
 
 Font: Guia de Patrimoni Històric i Artístic de Municpis Catalans (https://www.poblesdecatalunya.cat/element.php?e=10499)",,,,,,,,,,
-👀 Cofre,Hauríeu de trobar un cofre al mateix jardí on heu trobat la font custodiada per un àngel amb una arpa. No continueu fins tenir-lo localitzat.,,,,,,,,,,
+👀 Cofre,"No ha estat possible instal·lar un cofre de forma permanent a la ubicació i, actualment, no el trobareu. 
+
+Podeu passar a la següent pàgina sense cercar-ho (no és quelcom bloquejant), resoldre els enigmes finals i acabar el joc igualment!",,,,,,,,,,
 ❓ Primer codi,"Quadern de bitàcola:
 
 «Els astres indiquen el camí, 
@@ -284,4 +284,6 @@ Només se sap que aquesta cova estava ubicada en algun punt de la Serra Tramunta
 
 Més enllà d'imatges religioses com la Mare de Dèu de les Neus a l'Esglèsia de Sant Antoni Abat o la Santa Maria a la Parròquia de la Geltrú, el patrimoni artístic i cultural de la ciutat de Vilanova i la Geltrú, tal i com hem pogut comprovar durant el transcurs d'aquest joc, està configurat majoritàriament per referents masculins. 
 
-Aquesta invisibilització històrica de les dones, a través de la seva subrepresentació en espais públics, està justificada? Un col·lectiu que representa aproximadament el 50% de la humanitat no ha tingut figures destacades a la nostra vila? Tot i que, segurament, això també passi a altres municipis, podem aturar-nos a reflexionar-hi i emprendre un camí de memòria, justícia i reparació al respecte?",,,,,,,,,,
+Aquesta invisibilització històrica de les dones, a través de la seva subrepresentació en espais públics, està justificada? Un col·lectiu que representa aproximadament el 50% de la humanitat no ha tingut figures destacades a la nostra vila?
+
+No voldria acabar sense expressar el meu agraïment a la Paula i la Sandra per les seves aportacions a la versió inicial del joc i a qui heu jugat pel vostres comentaris i propostes de millora.",,,,,,,,,,
